@@ -4,12 +4,10 @@
     <id>wavosaur-x86</id>
     <title>Wavosaur x86</title>
     <version>1.1.0.0</version>
-    <authors>Wavosaur Team</authors>
+    <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
-    <description>Wavosaur is a cool free sound editor, audio editor, wav editor software for editing, processing and recording sounds, wav and mp3 files.
-Wavosaur has all the features to edit audio (cut, copy, paste, etc.) produce music loops, analyze, record, batch convert.
-Wavosaur supports VST plugins, ASIO driver, multichannel wav files, real time effect processing.</description>
+    <description>Wavosaur is a cool free sound editor, audio editor, wav editor software for editing, processing and recording sounds, wav and mp3 files. Wavosaur has all the features to edit audio (cut, copy, paste, etc.) produce music loops, analyze, record, batch convert. Wavosaur supports VST plugins, ASIO driver, multichannel wav files, real time effect processing.</description>
     <projectUrl>http://www.wavosaur.com/</projectUrl>
 	<packageSourceUrl>https://github.com/agabrys/chocolatey-packages/manual/wavosaur/x86</packageSourceUrl>
     <tags>wavosaur music sound editor</tags>
