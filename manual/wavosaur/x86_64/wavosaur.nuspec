@@ -11,7 +11,7 @@
 
 This package installs 32 or 64-bit version according to your platform.</description>
     <projectUrl>http://www.wavosaur.com/</projectUrl>
-	<packageSourceUrl>https://github.com/agabrys/chocolatey-packages/manual/wavosaur/x86_64</packageSourceUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wavosaur/x86_64</packageSourceUrl>
     <tags>wavosaur music sound editor</tags>
     <copyright>Copyright 2006 Wavosaur. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
