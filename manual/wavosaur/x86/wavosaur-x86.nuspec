@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wavosaur-x86</id>
-    <title>Wavosaur x86</title>
+    <title>Wavosaur (32-bit)</title>
     <version>1.1.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
