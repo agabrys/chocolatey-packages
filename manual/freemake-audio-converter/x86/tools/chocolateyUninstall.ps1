@@ -1,8 +1,8 @@
 $uninstaller = '\Freemake\Freemake Audio Converter\Uninstall\unins000.exe'
 if ("${Env:ProgramFiles(x86)}") {
-  $fullPath = "${Env:ProgramFiles(x86)}\$uninstaller"
+  $fullPath = "${Env:ProgramFiles(x86)}$uninstaller"
 } else {
-  $fullPath = "${Env:ProgramFiles}\$uninstaller"
+  $fullPath = "${Env:ProgramFiles}$uninstaller"
 }
 
 $packageArgs = @{
