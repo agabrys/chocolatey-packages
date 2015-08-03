@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>freemake-audio-converter</id>
+    <title>Freemake Audio Converter</title>
+    <version>1.1.3.4</version>
+    <authors>Ellora Assets Corporation</authors>
+    <owners>agabrys</owners>
+    <summary>Freemake Audio Converter is a free software to convert audio files between formats.</summary>
+    <description>Freemake Audio Converter is a free software to convert audio files between formats. It supports nearly any media format: MP3, WMA, WAV, FLAC, M4A, AAC, OGG and 40 more. Prepare music tracks for playback on your MP3 player, iPod, iPhone, iPad, PSP, Android phone, etc. Extract audio from any video files. Easy setup, no signup, no fees.</description>
+    <projectUrl>http://www.freemake.com/free_audio_converter/</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/freemake-audio-converter/x86</packageSourceUrl>
+    <tags>freemake audio music sound converter</tags>
+    <copyright>Copyright 2010 Ellora Assets Corporation.</copyright>
+    <licenseUrl>http://www.freemake.com/eula_fac/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/agabrys/chocolatey-packages/master/manual/freemake-audio-converter/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
