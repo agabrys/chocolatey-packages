@@ -13,7 +13,7 @@
     <tags>wavosaur audio music sound editor</tags>
     <copyright>Copyright 2006 Wavosaur. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
