@@ -11,14 +11,11 @@
 
 Burp gives you full control, letting you combine advanced manual techniques with state-of-the-art automation, to make your work faster, more effective, and more fun.
 
-Burp Suite contains the following key components:
+Burp Suite Free Edition contains the following key components:
 - An intercepting Proxy, which lets you inspect and modify traffic between your browser and the target application.
 - An application-aware Spider, for crawling content and functionality.
-- An advanced web application Scanner, for automating the detection of numerous types of vulnerability.
-- An Intruder tool, for performing powerful customized attacks to find and exploit unusual vulnerabilities.
 - A Repeater tool, for manipulating and resending individual requests.
 - A Sequencer tool, for testing the randomness of session tokens.
-- The ability to save your work and resume working later.
 - Extensibility, allowing you to easily write your own plugins, to perform complex and highly customized tasks within Burp.
 
 Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.</description>
