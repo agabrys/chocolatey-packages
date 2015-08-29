@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>burp-suite-free-edition-with-jre</id>
+    <title>Burp Suite Free Edition (with JRE)</title>
+    <version>1.6.25</version>
+    <authors>PortSwigger Ltd.</authors>
+    <owners>agabrys</owners>
+    <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
+    <description>Burp Suite is an integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.
+
+Burp gives you full control, letting you combine advanced manual techniques with state-of-the-art automation, to make your work faster, more effective, and more fun.
+
+Burp Suite Free Edition contains the following key components:
+- An intercepting Proxy, which lets you inspect and modify traffic between your browser and the target application.
+- An application-aware Spider, for crawling content and functionality.
+- A Repeater tool, for manipulating and resending individual requests.
+- A Sequencer tool, for testing the randomness of session tokens.
+- Extensibility, allowing you to easily write your own plugins, to perform complex and highly customized tasks within Burp.
+
+Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.</description>
+    <projectUrl>https://portswigger.net/burp/</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/burp-suite-free-edition-with-jre/noarch</packageSourceUrl>
+    <tags>burp suite security testing web applications</tags>
+    <copyright>PortSwigger Ltd. All Rights Reserved.</copyright>
+	<licenseUrl>https://portswigger.net/burp/eula-free.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition-with-jre/icon.png</iconUrl>
+    <dependencies>
+        <dependency id="javaruntime" version="6.0.30" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
