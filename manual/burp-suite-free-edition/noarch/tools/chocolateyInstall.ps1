@@ -1,6 +1,6 @@
 try {
 	Start-Process javaw.exe -ArgumentList -version
-} catch [Exception] {
+} catch {
 	throw "Cannot found Java! Please install it or package with JRE dependence: burp-suite-free-edition-with-jre"
 }
 
