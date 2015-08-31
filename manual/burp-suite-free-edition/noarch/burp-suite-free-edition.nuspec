@@ -18,7 +18,9 @@ Burp Suite Free Edition contains the following key components:
 - A Sequencer tool, for testing the randomness of session tokens.
 - Extensibility, allowing you to easily write your own plugins, to perform complex and highly customized tasks within Burp.
 
-Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.</description>
+Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.
+
+Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or later.</description>
     <projectUrl>https://portswigger.net/burp/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/burp-suite-free-edition/noarch</packageSourceUrl>
     <tags>burp-suite proxy security testing web-applications</tags>
