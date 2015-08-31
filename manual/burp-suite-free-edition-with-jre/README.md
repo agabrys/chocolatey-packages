@@ -1,5 +1,6 @@
 # Burp Suite Free Edition (with JRE)
 [![Burp Suite Free Edition (with JRE)](https://img.shields.io/badge/chocolatey-burp--suite--free--edition--with--jre-%23333.svg)](https://chocolatey.org/packages/burp-suite-free-edition-with-jre/)
+
 Burp Suite is an integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.
 
 Burp gives you full control, letting you combine advanced manual techniques with state-of-the-art automation, to make your work faster, more effective, and more fun.
