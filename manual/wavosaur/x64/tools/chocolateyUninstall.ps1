@@ -1,12 +1,10 @@
-$packageArgs = @{
-  packageName = 'wavosaur-x64'
-  zipFileName = 'Wavosaur.1.1.0.0-x64(en).zip'
-}
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$appDir = "$toolsDir\app"
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = "$menuPrograms\Wavosaur x64.lnk"
 
-UnInstall-ChocolateyZipPackage @packageArgs
+Remove-Item $appDir -recurse
 If (Test-Path $shortcutFilePath) {
   Remove-Item $shortcutFilePath
 }
