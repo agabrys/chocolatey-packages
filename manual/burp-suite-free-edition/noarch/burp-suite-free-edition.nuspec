@@ -28,7 +28,10 @@ Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or l
 	<licenseUrl>https://portswigger.net/burp/eula-free.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition/icon.png</iconUrl>
-  </metadata>
+    <dependencies>
+        <dependency id="javaruntime" version="7.0.5" />
+    </dependencies>
+    </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>

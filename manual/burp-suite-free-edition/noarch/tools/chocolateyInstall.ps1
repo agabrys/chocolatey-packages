@@ -1,9 +1,3 @@
-try {
-	Start-Process javaw.exe -ArgumentList -version
-} catch {
-	throw "Cannot found Java! Please install it or package with JRE dependence: burp-suite-free-edition-with-jre"
-}
-
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $appDir = "$toolsDir\app"
 
