@@ -15,7 +15,7 @@
     <licenseUrl>http://www.freemake.com/eula_fac/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/freemake-audio-converter/icon.png</iconUrl>
-	<releaseNotes>Added drag-n-drop support</releaseNotes>
+    <releaseNotes>Added drag-n-drop support</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
