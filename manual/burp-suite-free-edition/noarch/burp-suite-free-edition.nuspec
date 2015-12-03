@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Free Edition</title>
-    <version>1.6.30</version>
+    <version>1.6.31</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
