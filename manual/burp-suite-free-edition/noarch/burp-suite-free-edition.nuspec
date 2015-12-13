@@ -31,7 +31,8 @@ Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or l
     <dependencies>
         <dependency id="javaruntime" version="7.0.5" />
     </dependencies>
-    </metadata>
+    <releaseNotes>http://releases.portswigger.net/2015/12/1632.html</releaseNotes>
+  </metadata>  
   <files>
     <file src="tools\**" target="tools" />
   </files>
