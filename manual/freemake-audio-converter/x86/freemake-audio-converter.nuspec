@@ -10,7 +10,7 @@
     <description>Freemake Audio Converter is a free software to convert audio files between formats. It supports nearly any media format: MP3, WMA, WAV, FLAC, M4A, AAC, OGG and 40 more. Prepare music tracks for playback on your MP3 player, iPod, iPhone, iPad, PSP, Android phone, etc. Extract audio from any video files. Easy setup, no signup, no fees.</description>
     <projectUrl>http://www.freemake.com/free_audio_converter/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/freemake-audio-converter/x86</packageSourceUrl>
-    <tags>freemake audio music sound converter</tags>
+    <tags>freemake audio music sound converter admin</tags>
     <copyright>Copyright 2010 Ellora Assets Corporation.</copyright>
     <licenseUrl>http://www.freemake.com/eula_fac/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
