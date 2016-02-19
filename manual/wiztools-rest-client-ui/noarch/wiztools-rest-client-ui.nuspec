@@ -7,9 +7,7 @@
     <authors>WizTools.org</authors>
     <owners>agabrys</owners>
     <summary>RESTClient is a Java application to test RESTful webservices.</summary>
-    <description>RESTClient is a Java application to test RESTful webservices. It can be used to test variety of HTTP communications. There are two executables:
-* GUI version (restclient-ui-X.jar download)
-* Cli version for batch execution of .rcq files (restclient-cli-X.jar download)</description>
+    <description>RESTClient is a Java application to test RESTful webservices. It can be used to test variety of HTTP communications. This package installs GUI version.</description>
     <projectUrl>https://github.com/wiztools/rest-client</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wiztools-rest-client-ui/noarch</packageSourceUrl>
     <tags>wiztools restful rest client webservices testing web-applications</tags>
