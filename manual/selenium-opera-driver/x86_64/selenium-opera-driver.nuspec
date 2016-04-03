@@ -23,7 +23,7 @@ driver.exe file is located in chocolatey/lib/selenium-opera-driver/tools directo
     <docsUrl>https://github.com/operasoftware/operachromiumdriver/tree/master/docs</docsUrl>
     <bugTrackerUrl>https://github.com/operasoftware/operachromiumdriver/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/operasoftware/operachromiumdriver</projectSourceUrl>
-    <tags>selenium opera chromium driver webdriver testing web-applications</tags>
+    <tags>selenium opera driver webdriver testing web-applications</tags>
     <copyright>Opera Software. All Rights Reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/operasoftware/operachromiumdriver/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
