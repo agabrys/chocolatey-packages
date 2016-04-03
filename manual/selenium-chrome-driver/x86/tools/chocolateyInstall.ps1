@@ -13,3 +13,12 @@ Install-ChocolateyZipPackage @packageArgs
 New-Item $toolsDir\bin -ItemType directory
 Move-Item $tmpDir\chromedriver.exe $toolsDir\bin\driver.exe -Force
 Remove-Item $tmpDir -Recurse -Force
+
+$menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutArgs = @{
+  shortcutFilePath = "$menuPrograms\Selenium\Selenium Chrome Driver.lnk"
+  targetPath       = "$toolsDir\bin\driver.exe"
+  iconLocation     = "$toolsDir\icon.ico"
+}
+
+Install-ChocolateyShortcut @shortcutArgs

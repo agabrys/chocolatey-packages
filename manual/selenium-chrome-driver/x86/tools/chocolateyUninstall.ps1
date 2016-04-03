@@ -1,1 +1,6 @@
-# FYI - all files are located in internal package directory and will be deleted by standard 'choco uninstall selenium-chrome-driver' command
+$menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = "$menuPrograms\Selenium\Selenium Chrome Driver.lnk"
+
+If (Test-Path $shortcutFilePath) {
+  Remove-Item $shortcutFilePath
+}
