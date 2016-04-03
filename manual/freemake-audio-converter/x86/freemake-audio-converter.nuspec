@@ -3,7 +3,7 @@
   <metadata>
     <id>freemake-audio-converter</id>
     <title>Freemake Audio Converter</title>
-    <version>1.1.7.6</version>
+    <version>1.1.8.0</version>
     <authors>Ellora Assets Corporation</authors>
     <owners>agabrys</owners>
     <summary>Freemake Audio Converter is a free software to convert audio files between formats.</summary>
@@ -15,7 +15,6 @@
     <licenseUrl>http://www.freemake.com/eula_fac/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/freemake-audio-converter/icon.png</iconUrl>
-    <releaseNotes>Added drag-n-drop support</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
