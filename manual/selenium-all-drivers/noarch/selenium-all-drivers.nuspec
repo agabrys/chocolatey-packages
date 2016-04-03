@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>selenium-all-drivers</id>
+    <title>Selenium All Drivers</title>
+    <version>1.0</version>
+    <authors>SeleniumHQ &amp; Partners</authors>
+    <owners>agabrys</owners>
+    <summary>Installs drivers for browsers: Google Chrome, Internet Explorer and Opera.</summary>
+    <description>Installs drivers for browsers:
+- Google Chrome
+- Internet Explorer
+- Opera
+
+driver.exe files are located in chocolatey/lib/selenium-&lt;driver-name&gt;-driver/tools/bin directory.</description>
+    <projectUrl>http://www.seleniumhq.org/</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-all-drivers/noarch</packageSourceUrl>
+    <tags>selenium driver webdriver testing web-applications</tags>
+    <copyright>SeleniumHQ &amp; Partners. All Rights Reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/icon.png</iconUrl>
+    <dependencies>
+        <dependency id="selenium-chrome-driver" version="2.21" />
+        <dependency id="selenium-ie-driver" version="2.53.0" />
+        <dependency id="selenium-opera-driver" version="0.2.2" />
+    </dependencies>
+  </metadata>
+</package>
