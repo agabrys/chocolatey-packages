@@ -11,4 +11,4 @@ OperaChromiumDriver can be used without extra setup on Chromium-based versions o
 
 For driving Presto-based Opera browsers, refer to the [OperaPrestoDriver](https://github.com/operasoftware/operaprestodriver) project.
 
-driver.exe file is located in chocolatey/lib/selenium-opera-driver/tools directory.
+driver.exe file is located in `chocolatey/lib/selenium-opera-driver/tools` directory.

@@ -22,10 +22,11 @@ driver.exe file is located in chocolatey/lib/selenium-opera-driver/tools directo
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-opera-driver/x86_64</packageSourceUrl>
     <tags>selenium opera chromium driver webdriver testing web-applications</tags>
     <copyright>Opera Software. All Rights Reserved.</copyright>
-	<licenseUrl>https://raw.githubusercontent.com/operasoftware/operachromiumdriver/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/operasoftware/operachromiumdriver/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-opera-driver/icon.svg</iconUrl>
-  </metadata>  
+    <releaseNotes>Fix for "Incorrect release number displayed in the console for release" (https://github.com/operasoftware/operachromiumdriver/issues/10)</releaseNotes>
+  </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
