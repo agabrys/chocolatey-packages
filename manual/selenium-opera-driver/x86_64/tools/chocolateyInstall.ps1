@@ -13,5 +13,6 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-Move-Item $tmpDir\operadriver.exe $toolsDir\driver.exe -Force
+New-Item $toolsDir\bin -ItemType directory
+Move-Item $tmpDir\operadriver.exe $toolsDir\bin\driver.exe -Force
 Remove-Item $tmpDir -Recurse -Force
