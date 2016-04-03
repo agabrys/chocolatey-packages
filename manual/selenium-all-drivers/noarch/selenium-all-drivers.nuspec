@@ -25,4 +25,5 @@ driver.exe files are located in chocolatey/lib/selenium-&lt;driver-name&gt;-driv
         <dependency id="selenium-opera-driver" version="0.2.2" />
     </dependencies>
   </metadata>
+  <files />
 </package>
