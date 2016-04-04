@@ -13,14 +13,21 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-New-Item $toolsDir\bin -ItemType directory
-Move-Item $tmpDir\IEDriverServer.exe $toolsDir\bin\driver.exe -Force
+
+$binRoot = Get-BinRoot
+$seleniumDir = "$binRoot\selenium"
+$driverPath = "$seleniumDir\ie-driver.exe"
+
+If (!(Test-Path -Path $seleniumDir)) {
+  New-Item $seleniumDir -ItemType directory
+}
+Move-Item $tmpDir\IEDriverServer.exe $driverPath -Force
 Remove-Item $tmpDir -Recurse -Force
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{
   shortcutFilePath = "$menuPrograms\Selenium\Selenium Internet Explorer Driver.lnk"
-  targetPath       = "$toolsDir\bin\driver.exe"
+  targetPath       = $driverPath
   iconLocation     = "$toolsDir\icon.ico"
 }
 

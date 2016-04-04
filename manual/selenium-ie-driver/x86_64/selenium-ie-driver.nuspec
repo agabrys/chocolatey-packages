@@ -9,7 +9,7 @@
     <summary>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
     <description>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.
 
-driver.exe file is located in chocolatey/lib/selenium-ie-driver/tools/bin directory.</description>
+ie-driver.exe file is located in &lt;Get-BinRoot&gt;/selenium directory.</description>
     <projectUrl>https://github.com/SeleniumHQ/selenium/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-ie-driver/x86_64</packageSourceUrl>
     <docsUrl>https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver</docsUrl>
