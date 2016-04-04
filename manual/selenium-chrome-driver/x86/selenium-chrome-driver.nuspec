@@ -9,7 +9,7 @@
     <summary>Chrome Driver is a WebDriver implementation that enables programmatic automation of Chrome products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
     <description>WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. ChromeDriver is a standalone server which implements WebDriver's wire protocol (https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol) for Chromium.  
 
-driver.exe file is located in chocolatey/lib/selenium-chrome-driver/tools/bin directory.</description>
+chrome-driver.exe file is located in &lt;Get-BinRoot&gt;/selenium directory.</description>
     <projectUrl>https://sites.google.com/a/chromium.org/chromedriver/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-chrome-driver/x86</packageSourceUrl>
     <docsUrl>https://sites.google.com/a/chromium.org/chromedriver/</docsUrl>

@@ -1,12 +1,23 @@
-$menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFolder = "$menuPrograms\Selenium"
-$shortcutFilePath = "$shortcutFolder\Selenium Chrome Driver.lnk"
+$binRoot = Get-BinRoot
+$seleniumDir = "$binRoot\selenium"
+$driverPath = "$seleniumDir\chrome-driver.exe"
 
-If (Test-Path $shortcutFilePath) {
-  Remove-Item $shortcutFilePath
+Remove-Item $driverPath -Force
+
+$directoryInfo = Get-ChildItem $seleniumDir | Measure-Object
+If ($directoryInfo.count -eq 0) {
+  Remove-Item $seleniumDir -Force
 }
 
-$directoryInfo = Get-ChildItem $shortcutFolder | Measure-Object
-if ($directoryInfo.count -eq 0) {
-  Remove-Item $shortcutFolder
+$menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutDir = "$menuPrograms\Selenium"
+$shortcutFile = "$shortcutDir\Selenium Chrome Driver.lnk"
+
+If (Test-Path $shortcutFile) {
+  Remove-Item $shortcutFile -Force
+}
+
+$directoryInfo = Get-ChildItem $shortcutDir | Measure-Object
+If ($directoryInfo.count -eq 0) {
+  Remove-Item $shortcutDir -Force
 }
