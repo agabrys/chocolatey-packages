@@ -11,7 +11,7 @@ If ($directoryInfo.count -eq 0) {
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutDir = "$menuPrograms\Selenium"
-$shortcutFile = "$shortcutFolder\Selenium Internet Explorer Driver.lnk"
+$shortcutFile = "$shortcutDir\Selenium Internet Explorer Driver.lnk"
 
 If (Test-Path $shortcutFile) {
   Remove-Item $shortcutFile -Force
