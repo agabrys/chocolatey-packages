@@ -12,7 +12,7 @@
 - Internet Explorer
 - Opera
 
-driver.exe files are located in chocolatey/lib/selenium-&lt;driver-name&gt;-driver/tools/bin directory.</description>
+&lt;name&gt;-driver.exe files are located in &lt;Get-BinRoot&gt;/selenium directory.</description>
     <projectUrl>http://www.seleniumhq.org/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-all-drivers/noarch</packageSourceUrl>
     <tags>selenium driver webdriver testing web-applications</tags>
