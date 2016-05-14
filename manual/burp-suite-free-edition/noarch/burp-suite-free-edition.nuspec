@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Free Edition</title>
-    <version>1.7.01-beta</version>
+    <version>1.7.03</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications. This package always installs the latest version.</summary>
@@ -33,7 +33,7 @@ This package always installs the latest version.</description>
     <dependencies>
         <dependency id="javaruntime" version="7.0.5" />
     </dependencies>
-    <releaseNotes>http://releases.portswigger.net/2016/04/1701beta.html</releaseNotes>
+    <releaseNotes>http://releases.portswigger.net/2016/05/1703.html</releaseNotes>
   </metadata>  
   <files>
     <file src="tools\**" target="tools" />
