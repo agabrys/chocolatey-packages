@@ -11,6 +11,7 @@
     <projectUrl>https://github.com/wiztools/rest-client</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wiztools-rest-client-ui/noarch</packageSourceUrl>
     <docsUrl>https://github.com/wiztools/rest-client/wiki</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/rest-client</mailingListUrl>
     <bugTrackerUrl>https://github.com/wiztools/rest-client/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/wiztools/rest-client</projectSourceUrl>
     <tags>wiztools restful rest client webservices testing web-applications</tags>
@@ -18,6 +19,7 @@
     <licenseUrl>https://raw.githubusercontent.com/wiztools/rest-client/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wiztools-rest-client-ui/icon.png</iconUrl>
+    <releaseNotes>https://github.com/wiztools/rest-client/wiki/Release-Notes</releaseNotes>
     <dependencies>
         <dependency id="javaruntime" version="8.0.40" />
     </dependencies>
