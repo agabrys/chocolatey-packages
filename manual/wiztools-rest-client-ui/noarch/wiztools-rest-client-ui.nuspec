@@ -3,7 +3,7 @@
   <metadata>
     <id>wiztools-rest-client-ui</id>
     <title>WizTools.org RESTClient</title>
-    <version>3.5</version>
+    <version>3.6</version>
     <authors>WizTools.org</authors>
     <owners>agabrys</owners>
     <summary>RESTClient is a Java application to test RESTful webservices.</summary>
