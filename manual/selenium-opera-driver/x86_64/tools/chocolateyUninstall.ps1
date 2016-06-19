@@ -1,6 +1,6 @@
 $binRoot = Get-BinRoot
 $seleniumDir = "$binRoot\selenium"
-$driverPath = "$seleniumDir\opera-driver.exe"
+$driverPath = "$seleniumDir\operadriver.exe"
 
 Remove-Item $driverPath -Force
 
