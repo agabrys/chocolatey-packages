@@ -1,6 +1,6 @@
 $binRoot = Get-BinRoot
 $seleniumDir = "$binRoot\selenium"
-$driverPath = "$seleniumDir\chrome-driver.exe"
+$driverPath = "$seleniumDir\chromedriver.exe"
 
 Remove-Item $driverPath -Force
 
