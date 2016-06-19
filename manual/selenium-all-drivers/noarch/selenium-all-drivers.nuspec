@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-all-drivers</id>
     <title>Selenium All Drivers</title>
-    <version>1.0</version>
+    <version>2.0</version>
     <authors>SeleniumHQ &amp; Partners</authors>
     <owners>agabrys</owners>
     <summary>Installs drivers for browsers: Google Chrome, Internet Explorer and Opera.</summary>
@@ -12,17 +12,18 @@
 - Internet Explorer
 - Opera
 
-&lt;name&gt;-driver.exe files are located in &lt;Get-BinRoot&gt;/selenium directory.</description>
+Drivers exe files are located in &lt;Get-BinRoot&gt;/selenium directory.</description>
     <projectUrl>http://www.seleniumhq.org/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-all-drivers/noarch</packageSourceUrl>
     <tags>selenium driver webdriver testing web-applications</tags>
     <copyright>SeleniumHQ &amp; Partners. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/icon.png</iconUrl>
+    <releaseNotes>Use default drivers names (https://github.com/agabrys/chocolatey-packages/issues/1)</releaseNotes>
     <dependencies>
-        <dependency id="selenium-chrome-driver" version="2.21" />
-        <dependency id="selenium-ie-driver" version="2.53.0" />
-        <dependency id="selenium-opera-driver" version="0.2.2" />
+        <dependency id="selenium-chrome-driver" version="2.21.0.20160619" />
+        <dependency id="selenium-ie-driver" version="2.53.1.20160619" />
+        <dependency id="selenium-opera-driver" version="0.2.2.20160619" />
     </dependencies>
   </metadata>
   <files />

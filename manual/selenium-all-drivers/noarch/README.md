@@ -7,4 +7,4 @@ Installs drivers for browsers:
 * [Internet Explorer](https://chocolatey.org/packages/selenium-ie-driver/)
 * [Opera](https://chocolatey.org/packages/selenium-opera-driver/)
 
-`<name>-driver.exe` files are located in `<Get-BinRoot>/selenium` directory.
+Drivers `exe` files are located in `<Get-BinRoot>/selenium` directory.
