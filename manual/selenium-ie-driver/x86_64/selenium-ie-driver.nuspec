@@ -3,13 +3,13 @@
   <metadata>
     <id>selenium-ie-driver</id>
     <title>Selenium Internet Explorer Driver</title>
-    <version>2.53.1</version>
+    <version>2.53.1.20160619</version>
     <authors>SeleniumHQ</authors>
     <owners>agabrys</owners>
     <summary>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
     <description>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.
 
-ie-driver.exe file is located in &lt;Get-BinRoot&gt;/selenium directory.</description>
+IEDriverServer.exe file is located in &lt;Get-BinRoot&gt;/selenium directory.</description>
     <projectUrl>https://github.com/SeleniumHQ/selenium/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-ie-driver/x86_64</packageSourceUrl>
     <docsUrl>https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver</docsUrl>
@@ -20,7 +20,10 @@ ie-driver.exe file is located in &lt;Get-BinRoot&gt;/selenium directory.</descri
     <licenseUrl>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-ie-driver/icon.svg</iconUrl>
-    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG</releaseNotes>
+    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG
+
+Package changes:
+* use default driver name (https://github.com/agabrys/chocolatey-packages/issues/1)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

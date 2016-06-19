@@ -1,6 +1,6 @@
 $binRoot = Get-BinRoot
 $seleniumDir = "$binRoot\selenium"
-$driverPath = "$seleniumDir\ie-driver.exe"
+$driverPath = "$seleniumDir\IEDriverServer.exe"
 
 Remove-Item $driverPath -Force
 
