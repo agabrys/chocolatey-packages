@@ -1,4 +1,4 @@
-Copyright (c) 2016, Adam Gabryś
+﻿Copyright (c) 2016, Adam Gabryś
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
