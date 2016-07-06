@@ -17,6 +17,7 @@ Drivers exe files are located in &lt;Get-BinRoot&gt;/selenium directory.</descri
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-all-drivers/noarch</packageSourceUrl>
     <tags>selenium driver webdriver testing web-applications</tags>
     <copyright>SeleniumHQ &amp; Partners. All Rights Reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/icon.png</iconUrl>
     <releaseNotes>Use default drivers names (https://github.com/agabrys/chocolatey-packages/issues/1)</releaseNotes>
