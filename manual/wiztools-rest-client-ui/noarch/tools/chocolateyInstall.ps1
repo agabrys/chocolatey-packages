@@ -2,11 +2,11 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $appDir = "$toolsDir\app"
 
 $packageArgs = @{
-  packageName   = 'wiztools-rest-client-ui'
-  fileFullPath  = "$appDir\restclient.jar"
-  url           = 'https://github.com/wiztools/rest-client/releases/download/3.6/restclient-ui-fat-3.6.jar'
-  checksum      = 'f8ae86f55c7c2140748a0cfae8a2e5ad'
-  checksumType  = 'md5'
+  packageName  = 'wiztools-rest-client-ui'
+  fileFullPath = "$appDir\restclient.jar"
+  url          = 'https://github.com/wiztools/rest-client/releases/download/3.6.1/restclient-ui-fat-3.6.1.jar'
+  checksum     = 'fe6704668d4192924d3789e56c44e2d4'
+  checksumType = 'md5'
 }
 
 Get-ChocolateyWebFile @packageArgs
