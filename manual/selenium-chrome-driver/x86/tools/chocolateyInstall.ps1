@@ -6,7 +6,7 @@ $packageArgs = @{
   url           = 'http://chromedriver.storage.googleapis.com/2.23/chromedriver_win32.zip'
   checksum      = '6856adb07cc8683d2a1587c05f37f1be'
   checksumType  = 'md5'
-  unzipLocation  = $tmpDir	
+  unzipLocation = $tmpDir
 }
 
 Install-ChocolateyZipPackage @packageArgs
