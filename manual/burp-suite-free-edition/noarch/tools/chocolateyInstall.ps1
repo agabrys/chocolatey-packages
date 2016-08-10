@@ -2,9 +2,9 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $appDir = "$toolsDir\app"
 
 $packageArgs = @{
-  packageName   = 'burp-suite-free-edition'
-  fileFullPath  = "$appDir\burpsuite.jar"
-  url           = 'https://portswigger.net/DownloadUpdate.ashx?Product=Free'
+  packageName  = 'burp-suite-free-edition'
+  fileFullPath = "$appDir\burpsuite.jar"
+  url          = 'https://portswigger.net/DownloadUpdate.ashx?Product=Free'
 }
 
 Get-ChocolateyWebFile @packageArgs
