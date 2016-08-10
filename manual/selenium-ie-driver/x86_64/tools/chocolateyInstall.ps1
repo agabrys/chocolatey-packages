@@ -9,7 +9,7 @@ $packageArgs = @{
   url64bit       = 'http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_x64_2.53.1.zip'
   checksum64     = '6c822788a04e4e8d4727dc4c08c0102a'
   checksumType64 = 'md5'
-  unzipLocation  = $tmpDir	
+  unzipLocation  = $tmpDir
 }
 
 Install-ChocolateyZipPackage @packageArgs
