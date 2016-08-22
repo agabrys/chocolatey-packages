@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Free Edition</title>
-    <version>1.7.03</version>
+    <version>1.7.05</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications. This package always installs the latest version.</summary>
@@ -20,9 +20,7 @@ Burp Suite Free Edition contains the following key components:
 
 Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.
 
-Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or later.
-
-This package always installs the latest version.</description>
+Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or later.</description>
     <projectUrl>https://portswigger.net/burp/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/burp-suite-free-edition/noarch</packageSourceUrl>
     <tags>burp-suite proxy security testing web-applications</tags>
@@ -33,7 +31,7 @@ This package always installs the latest version.</description>
     <dependencies>
         <dependency id="javaruntime" version="7.0.5" />
     </dependencies>
-    <releaseNotes>http://releases.portswigger.net/2016/05/1703.html</releaseNotes>
+    <releaseNotes>http://releases.portswigger.net/2016/08/1705.html</releaseNotes>
   </metadata>  
   <files>
     <file src="tools\**" target="tools" />

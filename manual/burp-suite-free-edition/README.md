@@ -15,5 +15,3 @@ Burp Suite Free Edition contains the following key components:
 Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.
 
 Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or later.
-
-This package always installs the latest version.
