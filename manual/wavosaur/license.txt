@@ -1,4 +1,11 @@
 The software is provided to the user "as is".
-The user is not allowed to distribute the program in any ways without the authors explicite permission (including hosting anywhere). Whatever, you can link to the download location with your website. It is forbidden to sale or resale the Wavosaur software.
-The "Wavosaur Team" takes no responsibility for any damage, which may occur as a result of using the Wavosaur software.
+
+The user is not allowed to distribute the program in any ways
+without the authors explicite permission (including hosting anywhere).
+Whatever, you can link to the download location with your website.
+It is forbidden to sale or resale the Wavosaur software.
+
+The "Wavosaur Team" takes no responsibility for any damage, which may
+occur as a result of using the Wavosaur software.
+
 The user may not modify or decompile the software.

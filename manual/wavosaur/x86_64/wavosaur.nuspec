@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.1.0.0</version>
+    <version>1.2.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -14,10 +14,23 @@ This package installs 32 or 64-bit version according to your platform.</descript
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wavosaur/x86_64</packageSourceUrl>
     <tags>wavosaur audio music sound editor</tags>
     <copyright>Copyright 2006 Wavosaur. All Rights Reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>+ 64 bit version : Wavosaur now runs natively on 64 bit Windows systems, and load 64 bit VST plugins, the 32 bit version of Wavosaur is also available
-+ VST Host bugfix : fixed bug with "input pin", it was causing "Izotope" VST plugins to stop working</releaseNotes>
+    <releaseNotes>- New spectrum analysis: with precise real time display!
+- Output routing is in cfg file
+- New option to keep *.rec files (in case of crash)
+- Oscilloscope bug fixed for sample view
+- Mp3 decoder bug fied (synchro during decoding, without user impact)
+- Transport playing flag for VST plugins
++ New time bar:
+   - Selection 
+   - user view
+   - flickering improved
++ New keyboard control:
+   - to avoid switch to mainframe view for spectrum analysis/sonogram &amp; 3d view keyboard shortcuts
+   - wavosaur.keys : lot's of wavosaur shortcuts are now customizable in this "ini" format file (editable)
+   - new "Keyboard shortcuts" configuration dialog box: in menu "Option"</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

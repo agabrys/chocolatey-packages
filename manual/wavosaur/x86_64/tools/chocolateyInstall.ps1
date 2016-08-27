@@ -1,29 +1,13 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $appDir = "$toolsDir\app"
 
-$language = (Get-Culture).TwoLetterISOLanguageName;
-switch ($language) {
-  'fr' {
-    $url = 'http://fr.wavosaur.com/download/fichiers/Wavosaur.1.1.0.0-x86(fr).zip'
-    $checksum = '1c39d8683ac4656f144c0d98ceaeef95'
-    $url64 = 'http://fr.wavosaur.com/download/fichiers/Wavosaur.1.1.0.0-x64(fr).zip'
-    $checksum64 = '3d40f31a9e0b440e7a022e52e0017d71'
-  }
-  default {
-    $url = 'http://www.wavosaur.com/download/files/Wavosaur.1.1.0.0-x86(en).zip'
-    $checksum = 'ceec5466a641dcd77f026db99779141d'
-    $url64 = 'http://www.wavosaur.com/download/files/Wavosaur.1.1.0.0-x64(en).zip'
-    $checksum64 = '1cd1f1fefa7315fe465ac46ac1d26e14'
-  }
-}
-
 $packageArgs = @{
   packageName    = 'wavosaur'
-  url            = $url
-  checksum       = $checksum
+  url            = 'http://www.wavosaur.com/download/files/Wavosaur.1.2.0.0-x86(en).zip'
+  checksum       = '067242ac2429f4b02ea933d7483314a6'
   checksumType   = 'md5'
-  url64bit       = $url64
-  checksum64     = $checksum64
+  url64bit       = 'http://www.wavosaur.com/download/files/Wavosaur.1.2.0.0-x64(en).zip'
+  checksum64     = 'c616a4f32dfd8ae424017ace7512a4a2'
   checksumType64 = 'md5'
   unzipLocation  = $appDir
 }
