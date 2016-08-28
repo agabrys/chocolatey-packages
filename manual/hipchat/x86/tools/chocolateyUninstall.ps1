@@ -6,7 +6,7 @@ if ("${Env:ProgramFiles(x86)}") {
 }
 
 $packageArgs = @{
-  packageName = 'hipchat4'
+  packageName = 'hipchat'
   fileType    = 'exe'
   silentArgs  = '/VERYSILENT /NORESTART /NOCLOSEAPPLICATIONS /NORESTARTAPPLICATIONS'
   file        = $fullPath

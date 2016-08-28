@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>hipchat4</id>
-    <title>HipChat 4</title>
+    <id>hipchat</id>
+    <title>HipChat</title>
     <version>4.26.5</version>
     <authors>Atlassian</authors>
     <owners>agabrys</owners>
     <summary>HipChat is group chat, file sharing, video chat &amp; screen sharing built for teams &amp; business.</summary>
     <description>HipChat is group chat, file sharing, video chat &amp; screen sharing built for teams &amp; business. Collaborate from anywhere with apps on desktop &amp; mobile.</description>
     <projectUrl>https://www.hipchat.com/</projectUrl>
-    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/hipchat4/x86</packageSourceUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/hipchat/x86</packageSourceUrl>
     <tags>hipchat atlassian chat communicator admin</tags>
     <copyright>Atlassian</copyright>
     <licenseUrl>https://www.atlassian.com/licensing/hipchat</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/hipchat4/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/hipchat/icon.png</iconUrl>
     <releaseNotes>https://www.hipchat.com/release_notes/qtwindows</releaseNotes>
   </metadata>
   <files>
