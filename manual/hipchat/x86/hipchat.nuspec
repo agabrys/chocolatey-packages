@@ -12,7 +12,7 @@
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/hipchat/x86</packageSourceUrl>
     <tags>hipchat atlassian chat communicator admin</tags>
     <copyright>Atlassian</copyright>
-    <licenseUrl>https://www.atlassian.com/licensing/hipchat</licenseUrl>
+    <licenseUrl>https://www.hipchat.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/hipchat/icon.png</iconUrl>
     <releaseNotes>https://www.hipchat.com/release_notes/qtwindows</releaseNotes>
