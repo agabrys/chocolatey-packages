@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hipchat4</id>
-    <title>HipChat 4</title>
+    <title>HipChat Client 4</title>
     <version>4.26.5.1655</version>
     <authors>Atlassian</authors>
     <owners>agabrys</owners>
