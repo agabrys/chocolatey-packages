@@ -14,18 +14,19 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-$binRoot = Get-BinRoot
-$seleniumDir = "$binRoot\selenium"
+$toolsLocation = Get-ToolsLocation
+$seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\IEDriverServer.exe"
 
-If (!(Test-Path -Path $seleniumDir)) {
+If (!(Test-Path $seleniumDir)) {
   New-Item $seleniumDir -ItemType directory
 }
 Move-Item $tmpDir\IEDriverServer.exe $driverPath -Force
+Write-Host -ForegroundColor Green Moved driver to $seleniumDir
 Remove-Item $tmpDir -Recurse -Force
 
 $oldDriverPath = "$seleniumDir\ie-driver.exe"
-If (Test-Path -Path $oldDriverPath) {
+If (Test-Path $oldDriverPath) {
   Remove-Item $oldDriverPath -Force
 }
 
