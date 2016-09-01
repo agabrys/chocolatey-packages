@@ -11,4 +11,4 @@ OperaChromiumDriver can be used without extra setup on Chromium-based versions o
 
 For driving Presto-based Opera browsers, refer to the [OperaPrestoDriver](https://github.com/operasoftware/operaprestodriver) project.
 
-`operadriver.exe` file is located in `<Get-BinRoot>/selenium` directory.
+`operadriver.exe` file is located in `<Get-ToolsLocation>/selenium` directory.

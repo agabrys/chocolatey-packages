@@ -3,4 +3,4 @@
 
 Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the [Selenium](http://code.google.com/p/selenium) project.
 
-`IEDriverServer.exe` file is located in `<Get-BinRoot>/selenium` directory.
+`IEDriverServer.exe` file is located in `<Get-ToolsLocation>/selenium` directory.

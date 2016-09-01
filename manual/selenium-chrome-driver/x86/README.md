@@ -3,4 +3,4 @@
 
 WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. ChromeDriver is a standalone server which implements [WebDriver's wire protocol](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol) for Chromium.  
 
-`chromedriver.exe` file is located in `<Get-BinRoot>/selenium` directory.
+`chromedriver.exe` file is located in `<Get-ToolsLocation>/selenium` directory.
