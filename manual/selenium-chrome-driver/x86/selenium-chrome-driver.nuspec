@@ -16,7 +16,7 @@ chromedriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory
     <bugTrackerUrl>https://bugs.chromium.org/p/chromedriver/issues/list</bugTrackerUrl>
     <tags>selenium chrome google-chrome driver webdriver testing web-applications</tags>
     <copyright>Chromium and WebDriver teams. All Rights Reserved.</copyright>
-    <licenseUrl>https://sites.google.com/a/chromium.org/chromedriver/</licenseUrl>
+    <licenseUrl>https://cs.chromium.org/chromium/src/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-chrome-driver/icon.svg</iconUrl>
     <releaseNotes>https://sites.google.com/a/chromium.org/chromedriver/downloads
