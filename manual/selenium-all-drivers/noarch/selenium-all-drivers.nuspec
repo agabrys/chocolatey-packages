@@ -3,13 +3,14 @@
   <metadata>
     <id>selenium-all-drivers</id>
     <title>Selenium All Drivers</title>
-    <version>2.0.20160901</version>
+    <version>3.0</version>
     <authors>SeleniumHQ &amp; Partners</authors>
     <owners>agabrys</owners>
     <summary>Installs drivers for browsers: Google Chrome, Internet Explorer and Opera.</summary>
     <description>Installs drivers for browsers:
 - Google Chrome
 - Internet Explorer
+- Microsoft Edge
 - Opera
 
 Drivers exe files are located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
@@ -20,10 +21,10 @@ Drivers exe files are located in &lt;Get-ToolsLocation&gt;/selenium directory.</
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/icon.png</iconUrl>
-    <releaseNotes>- don't fail uninstall if exe does not exist (https://github.com/agabrys/chocolatey-packages/issues/7)
-- stop use deprecated API (Get-BinRoot) (https://github.com/agabrys/chocolatey-packages/issues/10)</releaseNotes>
+    <releaseNotes>add edge driver (https://github.com/agabrys/chocolatey-packages/issues/8)</releaseNotes>
     <dependencies>
         <dependency id="selenium-chrome-driver" version="2.23.0.20160901" />
+        <dependency id="selenium-edge-driver" version="3.14393" />
         <dependency id="selenium-ie-driver" version="2.53.1.20160901" />
         <dependency id="selenium-opera-driver" version="0.2.2.20160901" />
     </dependencies>
