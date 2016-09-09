@@ -6,8 +6,8 @@
     <version>3.14393</version>
     <authors>Microsoft</authors>
     <owners>agabrys</owners>
-    <summary>Microsoft Edge Driver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
-    <description>Microsoft Edge Driver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.
+    <summary>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
+    <description>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.
 
 MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
     <projectUrl>https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</projectUrl>
