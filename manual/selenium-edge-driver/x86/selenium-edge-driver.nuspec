@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>selenium-edge-driver</id>
+    <title>Selenium Edge Driver</title>
+    <version>3.14393</version>
+    <authors>Microsoft</authors>
+    <owners>agabrys</owners>
+    <summary>Microsoft Edge Driver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
+    <description>Microsoft Edge Driver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.
+
+MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
+    <projectUrl>https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-edge-driver/x86</packageSourceUrl>
+    <docsUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/</docsUrl>
+    <bugTrackerUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/</bugTrackerUrl>
+    <tags>selenium edge driver webdriver testing web-applications</tags>
+    <copyright>Microsoft. All Rights Reserved.</copyright>
+    <licenseUrl>https://az813057.vo.msecnd.net/eulas/webdriver-eula.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-edge-driver/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
