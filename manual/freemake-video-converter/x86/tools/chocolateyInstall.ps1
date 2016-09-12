@@ -2,8 +2,8 @@ $packageArgs = @{
   packageName   = 'freemake-video-converter'
   installerType = 'exe'
   silentArgs    = '/VERYSILENT /NORESTART'
-  url           = 'http://packages.chocolatey.adam.gabrys.biz/freemake-video-converter/freemake-video-converter-4.1.9.31.exe'
-  checksum      = '219dc1d9aeb09d4886308cc5779b7c10'
+  url           = 'http://packages.chocolatey.adam.gabrys.biz/freemake-video-converter/freemake-video-converter-4.1.9.40.exe'
+  checksum      = '1c8daf0c700516bd28d05d91a99e099a'
   checksumType  = 'md5'
 }
 
