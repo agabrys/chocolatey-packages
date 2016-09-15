@@ -1,5 +1,5 @@
 $packageArgs = @{
-  packageName   = 'hipchat4'
+  packageName   = 'hipchat'
   installerType = 'exe'
   silentArgs    = '/VERYSILENT /NORESTART /NOCLOSEAPPLICATIONS /NORESTARTAPPLICATIONS'
   url           = 'https://hipchat-ops.s3.amazonaws.com/hipchat4/windows/HipChat-4.26.5.1655.exe'
