@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mucommander</id>
+    <title>muCommander</title>
+    <version>0.9.0.20161019</version>
+    <authors>Maxence Bernard</authors>
+    <owners>adgellida, agabrys</owners>
+    <summary>muCommander is a lightweight, cross-platform file manager with a dual-pane interface.</summary>
+    <description>muCommander is a lightweight, cross-platform file manager with a dual-pane interface. It runs on any operating system with Java support (Mac OS X, Windows, Linux, *BSD, Solaris...).</description>
+    <projectUrl>http://www.mucommander.com/</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/mucommander/x86</packageSourceUrl>
+    <docsUrl>https://github.com/mucommander/mucommander/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/mucommander/mucommander/issues</bugTrackerUrl>
+    <tags>file-commander file-manager file-management dual-panel admin</tags>
+    <copyright>Maxence Bernard. All rights reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/mucommander/mucommander/master/package/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/mucommander/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
