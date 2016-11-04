@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>selenium-gecko-driver</id>
+    <title>Selenium Gecko Driver</title>
+    <version>0.11.1</version>
+    <authors>Mozilla</authors>
+    <owners>agabrys</owners>
+    <summary>Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers.</summary>
+    <description>Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers.
+
+This program provides the HTTP API described by the WebDriver protocol (http://w3c.github.io/webdriver/webdriver-spec.html#protocol) to communicate with Gecko browsers, such as Firefox.
+It translates calls into the Marionette (https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette) automation protocol by acting as a proxy between the local- and remote ends.
+
+You can consult the change log (https://github.com/mozilla/geckodriver/blob/master/CHANGES.md) for a record of all notable changes to the program.
+
+geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
+    <projectUrl>https://github.com/mozilla/geckodriver</projectUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-gecko-driver/x86_64</packageSourceUrl>
+    <docsUrl>https://github.com/mozilla/geckodriver/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/mozilla/geckodriver/issues</bugTrackerUrl>
+    <tags>selenium gecko driver webdriver testing web-applications</tags>
+    <copyright>Mozilla. All Rights Reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/mozilla/geckodriver/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-gecko-driver/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
