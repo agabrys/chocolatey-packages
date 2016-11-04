@@ -3,11 +3,12 @@
   <metadata>
     <id>selenium-all-drivers</id>
     <title>Selenium All Drivers</title>
-    <version>3.0</version>
+    <version>4.0</version>
     <authors>SeleniumHQ &amp; Partners</authors>
     <owners>agabrys</owners>
     <summary>Installs drivers for browsers: Google Chrome, Internet Explorer and Opera.</summary>
     <description>Installs drivers for browsers:
+- Gecko
 - Google Chrome
 - Internet Explorer
 - Microsoft Edge
@@ -25,6 +26,7 @@ Drivers exe files are located in &lt;Get-ToolsLocation&gt;/selenium directory.</
     <dependencies>
         <dependency id="selenium-chrome-driver" version="2.23.0.20160901" />
         <dependency id="selenium-edge-driver" version="3.14393" />
+        <dependency id="selenium-gecko-driver" version="0.11.1" />
         <dependency id="selenium-ie-driver" version="2.53.1.20160901" />
         <dependency id="selenium-opera-driver" version="0.2.2.20160901" />
     </dependencies>

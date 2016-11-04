@@ -3,6 +3,7 @@
 
 Installs drivers for browsers:
 
+* [Gecko](https://chocolatey.org/packages/selenium-gecko-driver/) (e.g. [Firefox](https://www.mozilla.org/firefox))
 * [Google Chrome](https://chocolatey.org/packages/selenium-chrome-driver/)
 * [Internet Explorer](https://chocolatey.org/packages/selenium-ie-driver/)
 * [Microsoft Edge](https://chocolatey.org/packages/selenium-edge-driver/)
