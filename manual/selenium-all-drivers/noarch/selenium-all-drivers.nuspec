@@ -22,7 +22,7 @@ Drivers exe files are located in &lt;Get-ToolsLocation&gt;/selenium directory.</
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-all-drivers/icon.png</iconUrl>
-    <releaseNotes>add edge driver (https://github.com/agabrys/chocolatey-packages/issues/8)</releaseNotes>
+    <releaseNotes>add gecko driver (https://github.com/agabrys/chocolatey-packages/issues/14)</releaseNotes>
     <dependencies>
         <dependency id="selenium-chrome-driver" version="2.23.0.20160901" />
         <dependency id="selenium-edge-driver" version="3.14393" />
