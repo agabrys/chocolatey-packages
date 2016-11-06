@@ -6,7 +6,7 @@
     <version>4.0</version>
     <authors>SeleniumHQ &amp; Partners</authors>
     <owners>agabrys</owners>
-    <summary>Installs drivers for browsers: Google Chrome, Internet Explorer and Opera.</summary>
+    <summary>Installs drivers for browsers: Gecko, Google Chrome, Internet Explorer, Microsoft Edge and Opera.</summary>
     <description>Installs drivers for browsers:
 - Gecko
 - Google Chrome
