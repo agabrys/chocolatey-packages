@@ -14,7 +14,7 @@ MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium dir
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-edge-driver/x86</packageSourceUrl>
     <docsUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/</docsUrl>
     <bugTrackerUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/</bugTrackerUrl>
-    <tags>selenium edge driver webdriver testing web-applications</tags>
+    <tags>selenium edge driver webdriver testing web-applications freeware</tags>
     <copyright>Microsoft. All Rights Reserved.</copyright>
     <licenseUrl>https://az813057.vo.msecnd.net/eulas/webdriver-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
