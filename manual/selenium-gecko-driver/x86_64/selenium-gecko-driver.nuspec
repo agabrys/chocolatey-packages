@@ -19,7 +19,7 @@ geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-gecko-driver/x86_64</packageSourceUrl>
     <docsUrl>https://github.com/mozilla/geckodriver/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/mozilla/geckodriver/issues</bugTrackerUrl>
-    <tags>selenium gecko driver webdriver testing web-applications</tags>
+    <tags>selenium gecko driver webdriver testing web-applications freeware</tags>
     <copyright>Mozilla. All Rights Reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/mozilla/geckodriver/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
