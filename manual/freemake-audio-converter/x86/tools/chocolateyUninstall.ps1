@@ -1,15 +1,10 @@
-$uninstaller = '\Freemake\Freemake Audio Converter\Uninstall\unins000.exe'
-if ("${Env:ProgramFiles(x86)}") {
-  $fullPath = "${Env:ProgramFiles(x86)}$uninstaller"
-} else {
-  $fullPath = "${Env:ProgramFiles}$uninstaller"
-}
+$path = Get-AppInstallLocation 'Freemake Audio Converter'
 
 $packageArgs = @{
   packageName = 'freemake-audio-converter'
   fileType    = 'exe'
   silentArgs  = '/VERYSILENT /NORESTART'
-  file        = $fullPath
+  file        = "${path}\Uninstall\unins000.exe"
 }
 
 Uninstall-ChocolateyPackage @packageArgs
