@@ -1,15 +1,10 @@
-$uninstaller = '\muCommander\uninstall.exe'
-if ("${Env:ProgramFiles(x86)}") {
-  $fullPath = "${Env:ProgramFiles(x86)}$uninstaller"
-} else {
-  $fullPath = "${Env:ProgramFiles}$uninstaller"
-}
+$path = Get-AppInstallLocation muCommander
 
 $packageArgs = @{
   packageName = 'mucommander'
   fileType    = 'exe'
   silentArgs  = '/S'
-  file        = $fullPath
+  file        = "${path}\uninstall.exe"
 }
 
 Uninstall-ChocolateyPackage @packageArgs
