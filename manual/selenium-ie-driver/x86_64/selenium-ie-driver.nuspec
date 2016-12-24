@@ -15,7 +15,7 @@ IEDriverServer.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directo
     <docsUrl>https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver</docsUrl>
     <bugTrackerUrl>https://github.com/SeleniumHQ/selenium/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/SeleniumHQ/selenium/tree/master/cpp/iedriverserver</projectSourceUrl>
-    <tags>selenium ie internet-explorer driver webdriver testing web-applications</tags>
+    <tags>selenium ie internet-explorer driver webdriver testing web-applications freeware</tags>
     <copyright>SeleniumHQ. All Rights Reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
