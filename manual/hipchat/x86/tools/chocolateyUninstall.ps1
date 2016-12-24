@@ -1,15 +1,10 @@
-$uninstaller = '\Atlassian\HipChat4\unins000.exe'
-if ("${Env:ProgramFiles(x86)}") {
-  $fullPath = "${Env:ProgramFiles(x86)}$uninstaller"
-} else {
-  $fullPath = "${Env:ProgramFiles}$uninstaller"
-}
+$path = Get-AppInstallLocation HipChat4
 
 $packageArgs = @{
   packageName = 'hipchat'
   fileType    = 'exe'
   silentArgs  = '/VERYSILENT /NORESTART /NOCLOSEAPPLICATIONS /NORESTARTAPPLICATIONS'
-  file        = $fullPath
+  file        = "${path}\unins000.exe"
 }
 
 Uninstall-ChocolateyPackage @packageArgs

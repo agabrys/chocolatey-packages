@@ -10,11 +10,14 @@
     <description>HipChat is group chat, file sharing, video chat &amp; screen sharing built for teams &amp; business. Collaborate from anywhere with apps on desktop &amp; mobile.</description>
     <projectUrl>https://www.hipchat.com/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/hipchat/x86</packageSourceUrl>
-    <tags>hipchat atlassian chat communicator admin</tags>
+    <tags>hipchat atlassian chat communicator freeware admin</tags>
     <copyright>Atlassian</copyright>
     <licenseUrl>https://www.hipchat.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/hipchat/icon.png</iconUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.0.4" />
+    </dependencies>
     <releaseNotes>https://www.hipchat.com/release_notes/qtwindows</releaseNotes>
   </metadata>
   <files>
