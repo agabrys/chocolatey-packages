@@ -3,11 +3,11 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName    = 'selenium-ie-driver'
-  url            = 'http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_Win32_2.53.1.zip'
-  checksum       = '35ac005f9088f2995d6a1cdc384fe4cb'
+  url            = 'https://selenium-release.storage.googleapis.com/3.0/IEDriverServer_Win32_3.0.0.zip'
+  checksum       = '4ba666e144f07869a0aa5f7a4c7a2091'
   checksumType   = 'md5'
-  url64bit       = 'http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_x64_2.53.1.zip'
-  checksum64     = '6c822788a04e4e8d4727dc4c08c0102a'
+  url64bit       = 'https://selenium-release.storage.googleapis.com/3.0/IEDriverServer_x64_3.0.0.zip'
+  checksum64     = '4396e6ca7fe643ef49ee137a81723a42'
   checksumType64 = 'md5'
   unzipLocation  = $tmpDir
 }

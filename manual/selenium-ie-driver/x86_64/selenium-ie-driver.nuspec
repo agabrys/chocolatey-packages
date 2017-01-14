@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-ie-driver</id>
     <title>Selenium Internet Explorer Driver</title>
-    <version>2.53.1.20160901</version>
+    <version>3.0.0</version>
     <authors>SeleniumHQ</authors>
     <owners>agabrys</owners>
     <summary>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
@@ -20,11 +20,7 @@ IEDriverServer.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directo
     <licenseUrl>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-ie-driver/icon.svg</iconUrl>
-    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG
-
-Package changes:
-- don't fail uninstall if exe does not exist (https://github.com/agabrys/chocolatey-packages/issues/7)
-- stop use deprecated API (Get-BinRoot) (https://github.com/agabrys/chocolatey-packages/issues/10)</releaseNotes>
+    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
