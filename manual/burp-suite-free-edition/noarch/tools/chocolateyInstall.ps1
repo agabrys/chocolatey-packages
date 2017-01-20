@@ -4,8 +4,8 @@ $appDir = "$toolsDir\app"
 $packageArgs = @{
   packageName  = 'burp-suite-free-edition'
   fileFullPath = "$appDir\burpsuite.jar"
-  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=1.7.15&type=Jar'
-  checksum     = '00805dcdc13a8980feeda8385d090ab6'
+  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=1.7.16&type=Jar'
+  checksum     = 'e71679acf722df8f54a66df7bda1c5a4'
   checksumType = 'md5'
 }
 
