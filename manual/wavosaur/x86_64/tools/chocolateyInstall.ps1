@@ -3,11 +3,11 @@ $appDir = "$toolsDir\app"
 
 $packageArgs = @{
   packageName    = 'wavosaur'
-  url            = 'http://www.wavosaur.com/download/files/Wavosaur.1.2.0.0-x86(en).zip'
-  checksum       = '067242ac2429f4b02ea933d7483314a6'
+  url            = 'https://www.wavosaur.com/download/files/Wavosaur.1.3.0.0-x86(en).zip'
+  checksum       = 'cf250930100f4e29d1cbb601567b5371'
   checksumType   = 'md5'
-  url64bit       = 'http://www.wavosaur.com/download/files/Wavosaur.1.2.0.0-x64(en).zip'
-  checksum64     = 'c616a4f32dfd8ae424017ace7512a4a2'
+  url64bit       = 'https://www.wavosaur.com/download/files/Wavosaur.1.3.0.0-x64(en).zip'
+  checksum64     = '899d8ae578b3629ca05d7306a8c3cd85'
   checksumType64 = 'md5'
   unzipLocation  = $appDir
 }

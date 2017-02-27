@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.2.0.0</version>
+    <version>1.3.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -17,20 +17,17 @@ This package installs 32 or 64-bit version according to your platform.</descript
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- New spectrum analysis: with precise real time display!
-- Output routing is in cfg file
-- New option to keep *.rec files (in case of crash)
-- Oscilloscope bug fixed for sample view
-- Mp3 decoder bug fied (synchro during decoding, without user impact)
-- Transport playing flag for VST plugins
-+ New time bar:
-   - Selection 
-   - user view
-   - flickering improved
-+ New keyboard control:
-   - to avoid switch to mainframe view for spectrum analysis/sonogram &amp; 3d view keyboard shortcuts
-   - wavosaur.keys : lot's of wavosaur shortcuts are now customizable in this "ini" format file (editable)
-   - new "Keyboard shortcuts" configuration dialog box: in menu "Option"</releaseNotes>
+    <releaseNotes>- Discover new Wavosaur Widgets: Widgets are plugings completely dockable windows with high performance measurements for various audio parameters:
+   * Real time ouput FFT (multichannel)
+   * RMS power measurements
+   * Scope mode for output signal visualization
+   * Panning for stereo analysis
+- Lot's of bug corrections/optimizations x86 &amp; x64 bits
++ Channel processing
+- Auxiliary left and auxiliary right channel convertion to mono
+- Convertion to mono optimized with mix of only selected channels
+- New "Select all" feature on right click
+- New FXP and FXB management with strong support of Steinberg VST program and bank files</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
