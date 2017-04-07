@@ -3,8 +3,8 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName   = 'selenium-chrome-driver'
-  url           = 'http://chromedriver.storage.googleapis.com/2.28/chromedriver_win32.zip'
-  checksum      = 'daef8743d113cecc3bfe0c65c3423565'
+  url           = 'https://chromedriver.storage.googleapis.com/2.29/chromedriver_win32.zip'
+  checksum      = 'b6e3a3fa31d2b45e482b44dcf8abd833'
   checksumType  = 'md5'
   unzipLocation = $tmpDir
 }
