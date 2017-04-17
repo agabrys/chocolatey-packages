@@ -27,9 +27,7 @@ operadriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
     <licenseUrl>https://raw.githubusercontent.com/operasoftware/operachromiumdriver/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-opera-driver/icon.svg</iconUrl>
-    <releaseNotes>Package changes:
-- don't fail uninstall if exe does not exist (https://github.com/agabrys/chocolatey-packages/issues/7)
-- stop use deprecated API (Get-BinRoot) (https://github.com/agabrys/chocolatey-packages/issues/10)</releaseNotes>
+    <releaseNotes>https://github.com/operasoftware/operachromiumdriver/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
