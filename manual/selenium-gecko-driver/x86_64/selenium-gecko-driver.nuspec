@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-gecko-driver</id>
     <title>Selenium Gecko Driver</title>
-    <version>0.15.0</version>
+    <version>0.16.0</version>
     <authors>Mozilla</authors>
     <owners>agabrys</owners>
     <summary>Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers.</summary>
@@ -24,7 +24,7 @@ geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
     <licenseUrl>https://raw.githubusercontent.com/mozilla/geckodriver/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-gecko-driver/icon.png</iconUrl>
-    <releaseNotes>https://github.com/mozilla/geckodriver/releases</releaseNotes>
+    <releaseNotes>https://github.com/mozilla/geckodriver/releases/tag/v0.16.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
