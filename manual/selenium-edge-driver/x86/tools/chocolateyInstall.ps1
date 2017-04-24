@@ -3,8 +3,8 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName  = 'selenium-edge-driver'
-  url          = 'https://download.microsoft.com/download/3/2/D/32D3E464-F2EF-490F-841B-05D53C848D15/MicrosoftWebDriver.exe'
-  checksum     = '6dae50d41405994e9baa73bf5d1e03bd'
+  url          = 'https://download.microsoft.com/download/3/4/2/342316D7-EBE0-4F10-ABA2-AE8E0CDF36DD/MicrosoftWebDriver.exe'
+  checksum     = 'b778f178ee9bd632949b9a1f8b3f68a5'
   checksumType = 'md5'
   fileFullPath = "$tmpDir/MicrosoftWebDriver.exe"
 }

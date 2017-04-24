@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-edge-driver</id>
     <title>Selenium Edge Driver</title>
-    <version>3.14393</version>
+    <version>4.15063</version>
     <authors>Microsoft</authors>
     <owners>agabrys</owners>
     <summary>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
