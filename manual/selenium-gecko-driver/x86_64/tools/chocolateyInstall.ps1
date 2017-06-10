@@ -3,11 +3,11 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName    = 'selenium-gecko-driver'
-  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-win32.zip'
-  checksum       = '2121cf3a9960bd820e9766766bb11a7c'
+  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-win32.zip'
+  checksum       = 'be8a441b3335c9162e65b0256e71b069'
   checksumType   = 'md5'
-  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-win64.zip'
-  checksum64     = 'de5c6e236e6ec7ad6ce9dfb82b1c4d97'
+  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-win64.zip'
+  checksum64     = 'c9ff3b48287d983c4e368318ffd22897'
   checksumType64 = 'md5'
   unzipLocation  = $tmpDir
 }
