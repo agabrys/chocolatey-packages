@@ -12,6 +12,7 @@
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/mucommander/x86</packageSourceUrl>
     <docsUrl>https://github.com/mucommander/mucommander/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/mucommander/mucommander/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/mucommander/mucommander</projectSourceUrl>
     <tags>file-commander file-manager file-management dual-panel freeware admin</tags>
     <copyright>Maxence Bernard. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/mucommander/mucommander/master/package/license.txt</licenseUrl>
