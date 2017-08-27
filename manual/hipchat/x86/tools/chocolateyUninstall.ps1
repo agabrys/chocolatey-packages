@@ -3,7 +3,7 @@ $path = Get-AppInstallLocation HipChat4
 $packageArgs = @{
   packageName = 'hipchat'
   fileType    = 'exe'
-  silentArgs  = '/VERYSILENT /NORESTART /NOCLOSEAPPLICATIONS /NORESTARTAPPLICATIONS'
+  silentArgs  = '/VerySilent /NoRestart /CloseApplications'
   file        = "${path}\unins000.exe"
 }
 
