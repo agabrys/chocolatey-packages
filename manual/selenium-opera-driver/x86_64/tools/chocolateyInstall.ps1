@@ -3,12 +3,12 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName    = 'selenium-opera-driver'
-  url            = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_win32.zip'
-  checksum       = 'df632f4be84b492782b0c6d710566b94d1e489a729abe9e27bee42f6ea3d7a61'
-  checksumType   = 'sha256'
-  url64bit       = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_win64.zip'
-  checksum64     = 'aeb6c215f3e157e8f60d964e7ce8059cc835b71882d216e3e8e56d4a147e5853'
-  checksumType64 = 'sha256'
+  url            = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win32.zip'
+  checksum       = 'f66f89eece449b9588fdc774d3a05890c94a60edd4ba642c542f358782b75b97723dd06140f385f56789ddff25d9ba1b25173db057b0d573d45c6b82a9d90cc2'
+  checksumType   = 'sha512'
+  url64bit       = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win64.zip'
+  checksum64     = '9ef909e26fa1c2880710a59aa076c1b546e42675861146a3857d79e8e88754abb6c733d8e1fd59016967806489c277f1237e13eeb8dfcca33c06376d688dde8b'
+  checksumType64 = 'sha512'
   unzipLocation  = $tmpDir
 }
 
