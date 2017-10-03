@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-gecko-driver</id>
     <title>Selenium Gecko Driver</title>
-    <version>0.18.0</version>
+    <version>0.19.0</version>
     <authors>Mozilla</authors>
     <owners>agabrys</owners>
     <summary>Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers.</summary>
