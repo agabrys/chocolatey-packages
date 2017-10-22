@@ -3,13 +3,15 @@
   <metadata>
     <id>selenium-edge-driver</id>
     <title>Selenium Edge Driver</title>
-    <version>4.15063</version>
+    <version>5.16299</version>
     <authors>Microsoft</authors>
     <owners>agabrys</owners>
     <summary>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
     <description>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.
 
-MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
+MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
+
+To find your correct build number: Go to Start &gt; Settings &gt; System &gt; About and locate the number next to OS Build on the screen. This is your build number. Having the correct version of WebDriver for your build ensures it runs correctly.</description>
     <projectUrl>https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-edge-driver/x86</packageSourceUrl>
     <docsUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/</docsUrl>
