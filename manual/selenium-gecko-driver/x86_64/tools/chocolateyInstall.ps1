@@ -3,11 +3,11 @@ $tmpDir = "$toolsDir\temp"
 
 $packageArgs = @{
   packageName    = 'selenium-gecko-driver'
-  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.19.0/geckodriver-v0.19.0-win32.zip'
-  checksum       = '46079cb33d809d6c80552567e4741023d137958818c6d307561cd1079fd415f59d89a56e6e698b7363b6f97fd5b9c61db4d28712012d93e9dadf278a2b98d024'
+  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win32.zip'
+  checksum       = '7f013f6689baf1ad229b1e2b975c31a7a6b53bed4db868499aa1bdd1003b485c92dc823d058deaec40e6533281a871f1b9b7e6b19faeb23f065b7fed58bebbe0'
   checksumType   = 'sha512'
-  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.19.0/geckodriver-v0.19.0-win64.zip'
-  checksum64     = '9a93d5626d9778fea0a0031fd11d15d52136ba27be2b8463bd6dcdd5a9fb39851040005a3cd18179b90953d0886c4aa21db8c9fb0e16d4b5f90f277d073d38c9'
+  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win64.zip'
+  checksum64     = '2f5878c838c9d091805ecb27480f16c468dd47247a890a4384d9dea09d409fdbe616d5b088c8c2187a12a4336ca73a4b1ace3539062961060b29f73a5c7290fb'
   checksumType64 = 'sha512'
   unzipLocation  = $tmpDir
 }
