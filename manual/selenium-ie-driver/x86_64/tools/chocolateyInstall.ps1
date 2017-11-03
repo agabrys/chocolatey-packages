@@ -1,5 +1,7 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$tmpDir = "$toolsDir\temp"
+$toolsLocation = Get-ToolsLocation
+$seleniumDir = "$toolsLocation\selenium"
+$driverPath = "$seleniumDir\IEDriverServer.exe"
 
 $packageArgs = @{
   packageName    = 'selenium-ie-driver'
@@ -9,26 +11,11 @@ $packageArgs = @{
   url64bit       = 'https://selenium-release.storage.googleapis.com/3.6/IEDriverServer_x64_3.6.0.zip'
   checksum64     = 'fa96603e6af7e4038845a85fae006ba486e1c373790a4476d908a8466a0756626dad5bc0c5a3ad6565fea18dde04e62279fd3b22e3b5aef71ede04ee93f0779e'
   checksumType64 = 'sha512'
-  unzipLocation  = $tmpDir
+  unzipLocation  = $seleniumDir
 }
-
 Install-ChocolateyZipPackage @packageArgs
 
-$toolsLocation = Get-ToolsLocation
-$seleniumDir = "$toolsLocation\selenium"
-$driverPath = "$seleniumDir\IEDriverServer.exe"
-
-If (!(Test-Path $seleniumDir)) {
-  New-Item $seleniumDir -ItemType directory
-}
-Move-Item $tmpDir\IEDriverServer.exe $driverPath -Force
-Write-Host -ForegroundColor Green Moved driver to $seleniumDir
-Remove-Item $tmpDir -Recurse -Force
-
-$oldDriverPath = "$seleniumDir\ie-driver.exe"
-If (Test-Path $oldDriverPath) {
-  Remove-Item $oldDriverPath -Force
-}
+Install-BinFile -Name 'IEDriverServer' -Path $driverPath
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{
@@ -36,5 +23,4 @@ $shortcutArgs = @{
   targetPath       = $driverPath
   iconLocation     = "$toolsDir\icon.ico"
 }
-
 Install-ChocolateyShortcut @shortcutArgs
