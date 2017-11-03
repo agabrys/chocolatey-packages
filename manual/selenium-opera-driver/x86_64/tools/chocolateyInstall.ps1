@@ -11,39 +11,35 @@ $packageArgs = @{
   checksumType64 = 'sha512'
   unzipLocation  = $tmpDir
 }
-
 Install-ChocolateyZipPackage @packageArgs
 
 $toolsLocation = Get-ToolsLocation
 $seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\operadriver.exe"
 
-If (!(Test-Path $seleniumDir)) {
-  New-Item $seleniumDir -ItemType directory
+If (!(Test-Path -Path $seleniumDir)) {
+  New-Item -Path $seleniumDir -ItemType directory
 }
 
-if (Get-ProcessorBits 64) {
-    if ($env:chocolateyForceX86) {
+If (Get-ProcessorBits 64) {
+    If ($env:chocolateyForceX86) {
         $bits = 32
-    } else {
+    } Else {
         $bits = 64
     }
-} else {
-    if ($env:chocolateyForceX64) {
+} Else {
+    If ($env:chocolateyForceX64) {
         $bits = 64
-    } else {
+    } Else {
         $bits = 32
     }
 }
 
-Move-Item $tmpDir\operadriver_win$bits\operadriver.exe $driverPath -Force
+Move-Item -Path $tmpDir\operadriver_win$bits\operadriver.exe -Destination $driverPath -Force
 Write-Host -ForegroundColor Green Moved driver to $seleniumDir
-Remove-Item $tmpDir -Recurse -Force
+Remove-Item -Path $tmpDir -Recurse -Force
 
-$oldDriverPath = "$seleniumDir\opera-driver.exe"
-If (Test-Path $oldDriverPath) {
-  Remove-Item $oldDriverPath -Force
-}
+Install-BinFile -Name 'operadriver' -Path $driverPath
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{
@@ -51,5 +47,4 @@ $shortcutArgs = @{
   targetPath       = $driverPath
   iconLocation     = "$toolsDir\icon.ico"
 }
-
 Install-ChocolateyShortcut @shortcutArgs
