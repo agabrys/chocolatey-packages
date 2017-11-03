@@ -1,5 +1,7 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$tmpDir = "$toolsDir\temp"
+$toolsLocation = Get-ToolsLocation
+$seleniumDir = "$toolsLocation\selenium"
+$driverPath = "$seleniumDir\geckodriver.exe"
 
 $packageArgs = @{
   packageName    = 'selenium-gecko-driver'
@@ -9,21 +11,11 @@ $packageArgs = @{
   url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win64.zip'
   checksum64     = '2f5878c838c9d091805ecb27480f16c468dd47247a890a4384d9dea09d409fdbe616d5b088c8c2187a12a4336ca73a4b1ace3539062961060b29f73a5c7290fb'
   checksumType64 = 'sha512'
-  unzipLocation  = $tmpDir
+  unzipLocation  = $seleniumDir
 }
-
 Install-ChocolateyZipPackage @packageArgs
 
-$toolsLocation = Get-ToolsLocation
-$seleniumDir = "$toolsLocation\selenium"
-$driverPath = "$seleniumDir\geckodriver.exe"
-
-If (!(Test-Path $seleniumDir)) {
-  New-Item $seleniumDir -ItemType directory
-}
-Move-Item $tmpDir\geckodriver.exe $driverPath -Force
-Write-Host -ForegroundColor Green Moved driver to $seleniumDir
-Remove-Item $tmpDir -Recurse -Force
+Install-BinFile -Name 'geckodriver' -Path $driverPath
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{
@@ -31,5 +23,4 @@ $shortcutArgs = @{
   targetPath       = $driverPath
   iconLocation     = "$toolsDir\icon.ico"
 }
-
 Install-ChocolateyShortcut @shortcutArgs
