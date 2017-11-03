@@ -21,8 +21,7 @@ To find your correct build number: Go to Start &gt; Settings &gt; System &gt; Ab
     <licenseUrl>https://az813057.vo.msecnd.net/eulas/webdriver-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-edge-driver/icon.png</iconUrl>
-    <releaseNotes>- add shim support (https://github.com/agabrys/chocolatey-packages/issues/17)
-- stop removal of the driver file with non-default name (introduced in https://github.com/agabrys/chocolatey-packages/issues/1)</releaseNotes>
+    <releaseNotes>Add shim support (https://github.com/agabrys/chocolatey-packages/issues/17)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
