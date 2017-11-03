@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-edge-driver</id>
     <title>Selenium Edge Driver</title>
-    <version>5.16299</version>
+    <version>5.16299.20171103</version>
     <authors>Microsoft</authors>
     <owners>agabrys</owners>
     <summary>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
@@ -21,6 +21,8 @@ To find your correct build number: Go to Start &gt; Settings &gt; System &gt; Ab
     <licenseUrl>https://az813057.vo.msecnd.net/eulas/webdriver-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-edge-driver/icon.png</iconUrl>
+    <releaseNotes>- add shim support (https://github.com/agabrys/chocolatey-packages/issues/17)
+- stop removal of the driver file with non-default name (introduced in https://github.com/agabrys/chocolatey-packages/issues/1)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
