@@ -13,9 +13,7 @@ If (Test-Path -Path $seleniumDir) {
   }
 }
 
-If (Test-Path -Path "$($env:ChocolateyInstall)\bin\operadriver.exe") {
-  Uninstall-BinFile -Name 'operadriver'
-}
+Uninstall-BinFile -Name 'operadriver'
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutDir = "$menuPrograms\Selenium"

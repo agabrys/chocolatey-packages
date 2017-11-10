@@ -13,9 +13,7 @@ If (Test-Path -Path $seleniumDir) {
   }
 }
 
-If (Test-Path -Path "$($env:ChocolateyInstall)\bin\geckodriver.exe") {
-  Uninstall-BinFile -Name 'geckodriver'
-}
+Uninstall-BinFile -Name 'geckodriver'
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutDir = "$menuPrograms\Selenium"
