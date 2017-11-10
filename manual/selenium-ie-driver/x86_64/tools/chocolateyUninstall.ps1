@@ -13,9 +13,7 @@ If (Test-Path -Path $seleniumDir) {
   }
 }
 
-If (Test-Path -Path "$($env:ChocolateyInstall)\bin\IEDriverServer.exe") {
-  Uninstall-BinFile -Name 'IEDriverServer'
-}
+Uninstall-BinFile -Name 'IEDriverServer'
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutDir = "$menuPrograms\Selenium"
