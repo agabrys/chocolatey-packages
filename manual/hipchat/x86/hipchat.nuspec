@@ -3,7 +3,7 @@
   <metadata>
     <id>hipchat</id>
     <title>HipChat Client</title>
-    <version>4.30.1.1663</version>
+    <version>4.30.3.1665</version>
     <authors>Atlassian</authors>
     <owners>agabrys</owners>
     <summary>HipChat is group chat, file sharing, video chat &amp; screen sharing built for teams &amp; business.</summary>
@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/hipchat/icon.png</iconUrl>
     <dependencies>
-      <dependency id="chocolatey-core.extension" version="1.0.4" />
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
     <releaseNotes>https://www.hipchat.com/release_notes/qtwindows</releaseNotes>
   </metadata>

@@ -6,5 +6,4 @@ $packageArgs = @{
   silentArgs  = '/VerySilent /NoRestart /CloseApplications'
   file        = "${path}\unins000.exe"
 }
-
 Uninstall-ChocolateyPackage @packageArgs
