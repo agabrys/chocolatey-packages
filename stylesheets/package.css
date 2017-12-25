@@ -1,0 +1,19 @@
+body {
+    max-width: 900px;
+}
+#description {
+    text-align: justify;
+}
+/* checkum */
+td:nth-child(3) {
+    text-align: center;
+    white-space: nowrap;
+    font-family: monospace;
+}
+/* size */
+th:nth-child(4) {
+    width: 50px;
+}
+td:nth-child(4) {
+    text-align: right;
+}

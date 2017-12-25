@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: http://packages.chocolatey.adam.gabrys.biz/sitemap.xml
