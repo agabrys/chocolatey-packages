@@ -5,8 +5,8 @@ $driverPath = "$seleniumDir\chromedriver.exe"
 
 $packageArgs = @{
   packageName   = 'selenium-chrome-driver'
-  url           = 'https://chromedriver.storage.googleapis.com/2.36/chromedriver_win32.zip'
-  checksum      = '17d485ab082b5c07d4d0d9894616a94fac5cef8ceaaf840ced07f617d274d8bfa4538610a2eea6ab3ba1e024cd8f8c28b600fb5b49b4206f1790c039f5a34f89'
+  url           = 'https://chromedriver.storage.googleapis.com/2.37/chromedriver_win32.zip'
+  checksum      = '947ed273fa498ccb5e14dba511d2b2ab0e40fa6ff273af631471402c8aadb01cb921d27c00e9ee87db3744f257745525067113cedf3de9c7c71a2d5a57556fd6'
   checksumType  = 'sha512'
   unzipLocation = $seleniumDir
 }
