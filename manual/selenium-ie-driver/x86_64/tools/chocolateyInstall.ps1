@@ -5,11 +5,11 @@ $driverPath = "$seleniumDir\IEDriverServer.exe"
 
 $packageArgs = @{
   packageName    = 'selenium-ie-driver'
-  url            = 'https://selenium-release.storage.googleapis.com/3.11/IEDriverServer_Win32_3.11.0.zip'
-  checksum       = 'e973736f209811106ff557d4ec2cdcc61f275b6b620057006cda5569f857a385e8586e03e72b5ecee38a3b1f4c29b5dd84168b5136ae19bbf880d263cb3ba94d'
+  url            = 'https://selenium-release.storage.googleapis.com/3.11/IEDriverServer_Win32_3.11.1.zip'
+  checksum       = '5a47b8bf89dbf3d3a6831c16535831df265802483836637fcf996cd0b41221fc48b6339515d324c903192ecc211006b0c42d0b35aaebd7d1f5d941123a40fc17'
   checksumType   = 'sha512'
-  url64bit       = 'https://selenium-release.storage.googleapis.com/3.11/IEDriverServer_x64_3.11.0.zip'
-  checksum64     = '50c12f4ad120d9c0977be72122a4a96ffc66070a329532fcf714ff91bdfe4b5be0a665d6c63ed99dc80b4ae19194959a8726da95b9366dd097b6c4279e1805e7'
+  url64bit       = 'https://selenium-release.storage.googleapis.com/3.11/IEDriverServer_x64_3.11.1.zip'
+  checksum64     = '9a560f2a32ca51ba91be20aa3de40c2b2b5b3d02b17dfb14fa9dafd14639f7eb0e638c6d84f5a49af5cad3d53d46566a466062c78c12885569bb8ba6476effd6'
   checksumType64 = 'sha512'
   unzipLocation  = $seleniumDir
 }
