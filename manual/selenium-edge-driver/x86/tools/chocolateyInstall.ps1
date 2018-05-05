@@ -5,8 +5,8 @@ $driverPath = "$seleniumDir\MicrosoftWebDriver.exe"
 
 $packageArgs = @{
   packageName  = 'selenium-edge-driver'
-  url          = 'https://download.microsoft.com/download/D/4/1/D417998A-58EE-4EFE-A7CC-39EF9E020768/MicrosoftWebDriver.exe'
-  checksum     = '11eff15b47d417f3831ee1ef78f5d0907f1a29fc5d3fc4dd6fde28bc94369fdf98434e03489398d02fa616c4246e171ba1667f5b164a86df695fea854a852857'
+  url          = 'https://download.microsoft.com/download/F/8/A/F8AF50AB-3C3A-4BC4-8773-DC27B32988DD/MicrosoftWebDriver.exe'
+  checksum     = '8210b744879b865f9c0e0d09f6a09689a156cf67c3dfaccf8d56cf2bdc8b97181d544e5a83d8eafa67113f3aa68ca7870df98f9fa0f16ee628b40b411ddef985'
   checksumType = 'sha512'
   fileFullPath = $driverPath
 }
