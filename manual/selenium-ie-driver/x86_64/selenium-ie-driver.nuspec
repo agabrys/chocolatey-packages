@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-ie-driver</id>
     <title>Selenium Internet Explorer Driver</title>
-    <version>3.12.0.20180630</version>
+    <version>3.13.0</version>
     <authors>SeleniumHQ</authors>
     <owners>agabrys</owners>
     <summary>Internet Explorer Driver (Server) is a WebDriver implementation that enables programmatic automation of Internet Explorer products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
@@ -27,11 +27,7 @@ To pass parameters, use `--params "''"` (e.g. `choco install selenium-ie-driver 
     <licenseUrl>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-ie-driver/icon.svg</iconUrl>
-    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG
-
-#### Package changes
-
-* allow to skip generation of shim for selenium drivers (https://github.com/agabrys/chocolatey-packages/issues/21)</releaseNotes>
+    <releaseNotes>https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
