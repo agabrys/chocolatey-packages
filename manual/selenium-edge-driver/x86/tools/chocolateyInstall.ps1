@@ -3,6 +3,8 @@ $toolsLocation = Get-ToolsLocation
 $seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\MicrosoftWebDriver.exe"
 
+$parameters = Get-PackageParameters
+
 $packageArgs = @{
   packageName  = 'selenium-edge-driver'
   url          = 'https://download.microsoft.com/download/F/8/A/F8AF50AB-3C3A-4BC4-8773-DC27B32988DD/MicrosoftWebDriver.exe'
@@ -12,7 +14,10 @@ $packageArgs = @{
 }
 Get-ChocolateyWebFile @packageArgs
 
-Install-BinFile -Name 'MicrosoftWebDriver' -Path $driverPath
+Uninstall-BinFile -Name 'MicrosoftWebDriver'
+If ($parameters['SkipShim'] -ne 'true') {
+  Install-BinFile -Name 'MicrosoftWebDriver' -Path $driverPath
+}
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{

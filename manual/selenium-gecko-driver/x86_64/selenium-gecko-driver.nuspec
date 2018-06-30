@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-gecko-driver</id>
     <title>Selenium Gecko Driver</title>
-    <version>0.20.1</version>
+    <version>0.20.1.20180630</version>
     <authors>Mozilla</authors>
     <owners>agabrys</owners>
     <summary>Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers.</summary>
@@ -14,7 +14,14 @@ It translates calls into the Marionette (https://developer.mozilla.org/en-US/doc
 
 You can consult the change log (https://github.com/mozilla/geckodriver/blob/master/CHANGES.md) for a record of all notable changes to the program.
 
-geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.</description>
+geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
+
+#### Package Parameters
+The following package parameters can be set:
+
+* `/SkipShim` - informs that the shim file should not be generated
+
+To pass parameters, use `--params "''"` (e.g. `choco install selenium-gecko-driver [other options] --params="'/SkipShim'"`).</description>
     <projectUrl>https://github.com/mozilla/geckodriver</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-gecko-driver/x86_64</packageSourceUrl>
     <docsUrl>https://github.com/mozilla/geckodriver/wiki</docsUrl>
@@ -24,7 +31,11 @@ geckodriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
     <licenseUrl>https://www.mozilla.org/en-US/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-gecko-driver/icon.png</iconUrl>
-    <releaseNotes>https://github.com/mozilla/geckodriver/releases/tag/v0.20.1</releaseNotes>
+    <releaseNotes>https://github.com/mozilla/geckodriver/releases/tag/v0.20.1
+
+#### Package changes
+
+* allow to skip generation of shim for selenium drivers (https://github.com/agabrys/chocolatey-packages/issues/21)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

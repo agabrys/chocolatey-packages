@@ -3,6 +3,8 @@ $toolsLocation = Get-ToolsLocation
 $seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\IEDriverServer.exe"
 
+$parameters = Get-PackageParameters
+
 $packageArgs = @{
   packageName    = 'selenium-ie-driver'
   url            = 'https://selenium-release.storage.googleapis.com/3.12/IEDriverServer_Win32_3.12.0.zip'
@@ -15,7 +17,10 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-BinFile -Name 'IEDriverServer' -Path $driverPath
+Uninstall-BinFile -Name 'IEDriverServer'
+If ($parameters['SkipShim'] -ne 'true') {
+  Install-BinFile -Name 'IEDriverServer' -Path $driverPath
+}
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{

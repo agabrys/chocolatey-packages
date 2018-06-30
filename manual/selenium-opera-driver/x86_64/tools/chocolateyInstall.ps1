@@ -1,6 +1,8 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $tmpDir = "$toolsDir\temp"
 
+$parameters = Get-PackageParameters
+
 $packageArgs = @{
   packageName    = 'selenium-opera-driver'
   url            = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.36/operadriver_win32.zip'
@@ -39,7 +41,10 @@ Move-Item -Path $tmpDir\operadriver_win$bits\operadriver.exe -Destination $drive
 Write-Host -ForegroundColor Green Moved driver to $seleniumDir
 Remove-Item -Path $tmpDir -Recurse -Force
 
-Install-BinFile -Name 'operadriver' -Path $driverPath
+Uninstall-BinFile -Name 'operadriver'
+If ($parameters['SkipShim'] -ne 'true') {
+  Install-BinFile -Name 'operadriver' -Path $driverPath
+}
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{

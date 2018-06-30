@@ -3,6 +3,8 @@ $toolsLocation = Get-ToolsLocation
 $seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\geckodriver.exe"
 
+$parameters = Get-PackageParameters
+
 $packageArgs = @{
   packageName    = 'selenium-gecko-driver'
   url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.20.1/geckodriver-v0.20.1-win32.zip'
@@ -15,7 +17,10 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-BinFile -Name 'geckodriver' -Path $driverPath
+Uninstall-BinFile -Name 'geckodriver'
+If ($parameters['SkipShim'] -ne 'true') {
+  Install-BinFile -Name 'geckodriver' -Path $driverPath
+}
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{

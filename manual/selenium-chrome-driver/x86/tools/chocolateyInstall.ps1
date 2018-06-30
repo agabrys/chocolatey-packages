@@ -3,6 +3,8 @@ $toolsLocation = Get-ToolsLocation
 $seleniumDir = "$toolsLocation\selenium"
 $driverPath = "$seleniumDir\chromedriver.exe"
 
+$parameters = Get-PackageParameters
+
 $packageArgs = @{
   packageName   = 'selenium-chrome-driver'
   url           = 'https://chromedriver.storage.googleapis.com/2.40/chromedriver_win32.zip'
@@ -12,7 +14,10 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-BinFile -Name 'chromedriver' -Path $driverPath
+Uninstall-BinFile -Name 'chromedriver'
+If ($parameters['SkipShim'] -ne 'true') {
+  Install-BinFile -Name 'chromedriver' -Path $driverPath
+}
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{

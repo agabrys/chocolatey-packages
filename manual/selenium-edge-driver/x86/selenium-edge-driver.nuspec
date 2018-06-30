@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-edge-driver</id>
     <title>Selenium Edge Driver</title>
-    <version>6.17134</version>
+    <version>6.17134.20180630</version>
     <authors>Microsoft</authors>
     <owners>agabrys</owners>
     <summary>Microsoft WebDriver is a WebDriver implementation that enables programmatic automation of Microsoft Egde products for desktop platforms.</summary>
@@ -11,7 +11,14 @@
 
 MicrosoftWebDriver.exe file is located in &lt;Get-ToolsLocation&gt;/selenium directory.
 
-To find your correct build number: Go to Start &gt; Settings &gt; System &gt; About and locate the number next to OS Build on the screen. This is your build number. Having the correct version of WebDriver for your build ensures it runs correctly.</description>
+To find your correct build number: Go to Start &gt; Settings &gt; System &gt; About and locate the number next to OS Build on the screen. This is your build number. Having the correct version of WebDriver for your build ensures it runs correctly.
+
+#### Package Parameters
+The following package parameters can be set:
+
+* `/SkipShim` - informs that the shim file should not be generated
+
+To pass parameters, use `--params "''"` (e.g. `choco install selenium-edge-driver [other options] --params="'/SkipShim'"`).</description>
     <projectUrl>https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/selenium-edge-driver/x86</packageSourceUrl>
     <docsUrl>https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/</docsUrl>
@@ -21,6 +28,9 @@ To find your correct build number: Go to Start &gt; Settings &gt; System &gt; Ab
     <licenseUrl>https://az813057.vo.msecnd.net/eulas/webdriver-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/selenium-edge-driver/icon.png</iconUrl>
+    <releaseNotes>#### Package changes
+
+* allow to skip generation of shim for selenium drivers (https://github.com/agabrys/chocolatey-packages/issues/21)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
