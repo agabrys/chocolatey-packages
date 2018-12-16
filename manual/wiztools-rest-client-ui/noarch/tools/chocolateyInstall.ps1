@@ -4,8 +4,8 @@ $appDir = "$toolsDir\app"
 $packageArgs = @{
   packageName  = 'wiztools-rest-client-ui'
   fileFullPath = "$appDir\restclient.jar"
-  url          = 'https://github.com/wiztools/rest-client/releases/download/3.7.0/restclient-ui-fat-3.7.0.jar'
-  checksum     = 'a77f0e3092c29c1c5aa5485998ba05c26ad7b82bdec85246d7e84686db9e665a4a77fb50d766b9cdb7137fb8e547123d83d5c1fe23ecb4e42cd36a94e16d27d3'
+  url          = 'https://github.com/wiztools/rest-client/releases/download/3.7.1/restclient-ui-fat-3.7.1.jar'
+  checksum     = 'c3f90594a192afdbdf1520a1f98ca5c77a3874a26c86f7f6da490bbafd176c930e6148ee0f4eba94758c777f7a35aff5dc17532443f6290c608996d37c93e49e'
   checksumType = 'sha512'
 }
 
