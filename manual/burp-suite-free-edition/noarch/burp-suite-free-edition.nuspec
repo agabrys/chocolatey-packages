@@ -29,7 +29,7 @@ Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or l
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition/icon.png</iconUrl>
     <dependencies>
-        <dependency id="javaruntime" version="7.0.5" />
+      <dependency id="javaruntime" version="7.0.5" />
     </dependencies>
     <releaseNotes>http://releases.portswigger.net/2018/07/1736.html</releaseNotes>
   </metadata>  
