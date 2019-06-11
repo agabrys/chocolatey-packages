@@ -7,8 +7,8 @@ $parameters = Get-PackageParameters
 
 $packageArgs = @{
   packageName   = 'selenium-chrome-driver'
-  url           = 'https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_win32.zip'
-  checksum      = '5b3786b88d26cb6d22ad87b11f186545db451ffc40491025e699c991811daf9580c93894a94aab84b256a8ed40d11667ca9d2a5a9fa9798d4f677ddff89c10fb'
+  url           = 'https://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_win32.zip'
+  checksum      = 'cb7877c83e41bf28161d9ecce4c1722825703cd1f7280daf44eeb4e950db9069a2bccfab6a91a7ff541357d424992b26eb48363cd4d4a147bc5d092335619ecf'
   checksumType  = 'sha512'
   unzipLocation = $seleniumDir
 }
