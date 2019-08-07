@@ -3,7 +3,7 @@
   <metadata>
     <id>selenium-chrome-driver</id>
     <title>Selenium Chrome Driver</title>
-    <version>75.0.3770.8</version>
+    <version>75.0.3770.90</version>
     <authors>Chromium and WebDriver teams</authors>
     <owners>agabrys</owners>
     <summary>Chrome Driver is a WebDriver implementation that enables programmatic automation of Chrome products for desktop platforms. It is a part of the Selenium (http://code.google.com/p/selenium) project.</summary>
