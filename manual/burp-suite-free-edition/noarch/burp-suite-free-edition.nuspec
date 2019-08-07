@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>burp-suite-free-edition</id>
-    <title>Burp Suite Free Edition</title>
-    <version>1.7.36</version>
+    <title>Burp Suite Community Edition</title>
+    <version>2.1</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
@@ -11,7 +11,7 @@
 
 Burp gives you full control, letting you combine advanced manual techniques with state-of-the-art automation, to make your work faster, more effective, and more fun.
 
-Burp Suite Free Edition contains the following key components:
+Burp Suite Community Edition contains the following key components:
 - An intercepting Proxy, which lets you inspect and modify traffic between your browser and the target application.
 - An application-aware Spider, for crawling content and functionality.
 - A Repeater tool, for manipulating and resending individual requests.
@@ -20,18 +20,18 @@ Burp Suite Free Edition contains the following key components:
 
 Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.
 
-Burp Suite Free Edition requires the official Java SE Runtime Environment 7 or later.</description>
+Burp Suite Community Edition requires the official Java SE Runtime Environment 8 or later.</description>
     <projectUrl>https://portswigger.net/burp/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/burp-suite-free-edition/noarch</packageSourceUrl>
     <tags>burp-suite proxy security testing web-applications freeware</tags>
     <copyright>PortSwigger Ltd. All Rights Reserved.</copyright>
-    <licenseUrl>https://portswigger.net/burp/eula-free.html</licenseUrl>
+    <licenseUrl>https://portswigger.net/burp/eula/community</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition/icon.png</iconUrl>
     <dependencies>
-      <dependency id="javaruntime" version="7.0.5" />
+      <dependency id="javaruntime" version="8.0.40" />
     </dependencies>
-    <releaseNotes>http://releases.portswigger.net/2018/07/1736.html</releaseNotes>
+    <releaseNotes>http://releases.portswigger.net/2019/06/professional-community-edition-21.html</releaseNotes>
   </metadata>  
   <files>
     <file src="tools\**" target="tools" />

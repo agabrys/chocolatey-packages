@@ -4,15 +4,15 @@ $appDir = "$toolsDir\app"
 $packageArgs = @{
   packageName  = 'burp-suite-free-edition'
   fileFullPath = "$appDir\burpsuite.jar"
-  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=1.7.36&type=Jar'
-  checksum     = '9788720feed1227f196adc7b4de78793de9a2e4602bdf066a37d482bc2f5a9d7c04773ca8325f953591db81125b7d117f77f7a8f9c8dc461e795ea44af4e1cab'
+  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=2.1&type=jar'
+  checksum     = '7df7bdd45f2e8252b7e7e8bbe9d6353d415e2acc9c73c6f94964a8f54f015346cf170903311e5f68062ca07766ff52d47152a27c2758cb74c34fb591aacc6f34'
   checksumType = 'sha512'
 }
 Get-ChocolateyWebFile @packageArgs
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $wshShell = New-Object -ComObject WScript.Shell
-$shortcut = $wshShell.CreateShortcut("$menuPrograms\Burp Suite Free Edition.lnk")
+$shortcut = $wshShell.CreateShortcut("$menuPrograms\Burp Suite Community Edition.lnk")
 $shortcut.TargetPath = "javaw.exe"
 $Shortcut.Arguments = "-jar `"$appDir\burpsuite.jar`""
 $shortcut.IconLocation = "$toolsDir\icon.ico"
