@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Community Edition</title>
-    <version>2.1.02</version>
+    <version>2.1.04</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
@@ -31,7 +31,7 @@ Burp Suite Community Edition requires the official Java SE Runtime Environment 8
     <dependencies>
       <dependency id="javaruntime" version="8.0.40" />
     </dependencies>
-    <releaseNotes>http://releases.portswigger.net/2019/07/professional-community-edition-2102.html</releaseNotes>
+    <releaseNotes>http://releases.portswigger.net/2019/09/professional-2104.html</releaseNotes>
   </metadata>  
   <files>
     <file src="tools\**" target="tools" />
