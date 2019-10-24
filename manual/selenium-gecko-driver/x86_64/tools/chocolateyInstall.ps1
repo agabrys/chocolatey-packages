@@ -7,11 +7,11 @@ $parameters = Get-PackageParameters
 
 $packageArgs = @{
   packageName    = 'selenium-gecko-driver'
-  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.25.0/geckodriver-v0.25.0-win32.zip'
-  checksum       = '151297af888e4c36e51457170f5f126f93c61761e5dd57d134ad1414147c175cca56a8fb6bb85a131f39f85cef92896b611d3127c26965a20d7d6833e4f4979f'
+  url            = 'https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win32.zip'
+  checksum       = 'ff6c43bebedff498068a980f5d5246474fe24fa51b94d6612fddff6fbfa3f27185bf698fd1fca347b7bf3fcfca11c31f7f0bb095f6867e3fb38b6833b09723aa'
   checksumType   = 'sha512'
-  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.25.0/geckodriver-v0.25.0-win64.zip'
-  checksum64     = '991079d8950a302c2ae6fac5336a28268bb81a4bd33eea86a682b567dee24a35201dd3b41a613c001fbf0c7920c0e9d11eda56a65f58c81f26139c7ada7bf436'
+  url64bit       = 'https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip'
+  checksum64     = 'eb297f5d4f998ff91b5b1626e416df0cfc3d6b36af8da75403dc8f4424b027ce2618bf36179017e2a82361fffb985d43f836010c7ba88f0a6231811cfd53bbe5'
   checksumType64 = 'sha512'
   unzipLocation  = $seleniumDir
 }
