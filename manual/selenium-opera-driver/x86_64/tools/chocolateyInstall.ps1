@@ -5,11 +5,11 @@ $parameters = Get-PackageParameters
 
 $packageArgs = @{
   packageName    = 'selenium-opera-driver'
-  url            = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.76.0.3809.132/operadriver_win32.zip'
-  checksum       = '74f39a7c3ef5ad2e237793c032df8ef21ed58c4f510f4ddb03c0241b1adae0ca277f22c85ec930d1854bc25adcf947758ab8c5767907d826e7df7c6dd82d7e62'
+  url            = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.77.0.3865.120/operadriver_win32.zip'
+  checksum       = '4daa8e26a2dc123dc8ec73059f77027434067eb681a7c7c14f5a6526b80a3279e11ceaea98b1b4d746c9ea0465d97248ad7884d3a0a6ac2bdab56c11032a39e4'
   checksumType   = 'sha512'
-  url64bit       = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.76.0.3809.132/operadriver_win64.zip'
-  checksum64     = '204e75bc1695afa365af6ed59834abf290298ed29ac8e094c4ee6c30df57eebf3ec785707a05cf8387f6a5f068df81264bcaf0a81215e0ca3375a4ebf2315f9c'
+  url64bit       = 'https://github.com/operasoftware/operachromiumdriver/releases/download/v.77.0.3865.120/operadriver_win64.zip'
+  checksum64     = '35b2eef998b70bb30b9c1488423e396f991c183ed97585e701d6267cc787fd1b3d81d17bfdec44b38d44de88d2a7465aaaad43029ef25e2afcf9a98c69ea6237'
   checksumType64 = 'sha512'
   unzipLocation  = $tmpDir
 }
