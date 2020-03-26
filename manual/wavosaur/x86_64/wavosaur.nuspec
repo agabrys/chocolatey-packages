@@ -3,13 +3,15 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.3.0.0</version>
+    <version>1.4.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
     <description>Wavosaur is a cool free sound editor, audio editor, wav editor software for editing, processing and recording sounds, wav and mp3 files. Wavosaur has all the features to edit audio (cut, copy, paste, etc.) produce music loops, analyze, record, batch convert. Wavosaur supports VST plugins, ASIO driver, multichannel wav files, real time effect processing.
 
-This package installs 32 or 64-bit version according to your platform.</description>
+This package installs 32 or 64-bit version according to your platform.
+
+The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosaur directory.</description>
     <projectUrl>http://www.wavosaur.com/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wavosaur/x86_64</packageSourceUrl>
     <tags>wavosaur audio music sound editor freeware</tags>
@@ -17,17 +19,37 @@ This package installs 32 or 64-bit version according to your platform.</descript
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- Discover new Wavosaur Widgets: Widgets are plugings completely dockable windows with high performance measurements for various audio parameters:
-   * Real time ouput FFT (multichannel)
-   * RMS power measurements
-   * Scope mode for output signal visualization
-   * Panning for stereo analysis
-- Lot's of bug corrections/optimizations x86 &amp; x64 bits
-+ Channel processing
-- Auxiliary left and auxiliary right channel convertion to mono
-- Convertion to mono optimized with mix of only selected channels
-- New "Select all" feature on right click
-- New FXP and FXB management with strong support of Steinberg VST program and bank files</releaseNotes>
+    <releaseNotes>- Normalize menu bug fixed
+- Batch processing:
+   * normalize -3dB added
+   * mp3 320 kbit/s
+   * directory path saved for folder browsing dialog box
+- Convert to stereo bug fixed
+- New Sor file format
+- Data extract/write optimized
+- Time bar: click on time bar to change current position
+- DBbar:
+   * double click support to select entire channel
+   * simple click to select/deselect the channel
+- New Widget: player chronometer
+- AIFF file support:
+   * Sampling frequency bug fixed
+   * 12, 24 &amp; 32bits file support
+- AIFC file support: (AIFF with AIFC file format)
+   * Edition
+   * Batch processing
+- AU file support: 24 bits, 32 bits, A-law, float &amp; double
+- VOC file support: 8 bit import
+- Import binary:
+   * 32 bits &amp; 64 bits float big endian byte order support
+   * 8 bits u &amp; A law support
+- Export binary:
+   * 32 bits &amp; 64 bits float big endian byte order support
+   * 8 bits u &amp; A law support
+
+#### Package changes
+
+The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosaur directory to fix broken Undo command (read more: http://disq.us/p/28mcluf).</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
