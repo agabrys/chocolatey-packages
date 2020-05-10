@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.4.0.0</version>
+    <version>1.5.0.0020200614</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -19,37 +19,21 @@ The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosau
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- Normalize menu bug fixed
-- Batch processing:
-   * normalize -3dB added
-   * mp3 320 kbit/s
-   * directory path saved for folder browsing dialog box
-- Convert to stereo bug fixed
-- New Sor file format
-- Data extract/write optimized
-- Time bar: click on time bar to change current position
-- DBbar:
-   * double click support to select entire channel
-   * simple click to select/deselect the channel
-- New Widget: player chronometer
-- AIFF file support:
-   * Sampling frequency bug fixed
-   * 12, 24 &amp; 32bits file support
-- AIFC file support: (AIFF with AIFC file format)
-   * Edition
-   * Batch processing
-- AU file support: 24 bits, 32 bits, A-law, float &amp; double
-- VOC file support: 8 bit import
-- Import binary:
-   * 32 bits &amp; 64 bits float big endian byte order support
-   * 8 bits u &amp; A law support
-- Export binary:
-   * 32 bits &amp; 64 bits float big endian byte order support
-   * 8 bits u &amp; A law support
-
-#### Package changes
-
-The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosaur directory to fix broken Undo command (read more: http://disq.us/p/28mcluf).</releaseNotes>
+    <releaseNotes>- "View Widget" added (in View menu)
+- Redo:
+   * Full support for all features
+   * All in RAM option (recommended for x64), option in editor configuration dialog
+- VST Rack:
+   * Popup menu on right click on VST rack
+   * Add VST with double click on VST list
+   * Popup menu on right click on VST List: suppress &amp; add to rack
+   * Bug fix for Idle message from some old VSTs
+   * Support of keyboard keys (suppr)
+- Select from start or stop menu added (in Edit)
+- Batch processor VST processing bug fixed
+- Progress bar:
+   * Percent progression added
+- Bug fix for global display for Windows 10 resizing</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

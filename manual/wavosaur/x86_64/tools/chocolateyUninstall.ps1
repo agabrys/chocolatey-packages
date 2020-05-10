@@ -1,10 +1,7 @@
-$menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = "$menuPrograms\Wavosaur.lnk"
-If (Test-Path $shortcutFilePath) {
-  Remove-Item $shortcutFilePath -Force
-}
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+& "$toolsDir\cleanup.ps1"
 
 $appDir = "$(Get-ToolsLocation)\wavosaur"
-If (Test-Path $appDir) {
+If (Test-Path -Path $appDir) {
   Remove-Item -Path $appDir -Recurse -Force
 }

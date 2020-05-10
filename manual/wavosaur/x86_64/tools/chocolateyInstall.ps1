@@ -1,27 +1,52 @@
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$oldAppDir = "$toolsDir\app"
-If (Test-Path $oldAppDir) {
-  Remove-Item -Path $oldAppDir -Recurse -Force
-}
+$version = "1.5.0.0"
+$checksumX86 = 'c6a9a9c4750c0dec75331efa2be897b6b5781a18047c461ae17c73b5734fe5c191435bf5a60a66e380a5ec7483ee4f3686be4eccbb6e812f9cd32461f5f1c22c'
+$checksumX64 = '0dda5a270f2ca16227b467bd2f0de3fa0f3703fedb82ab92d6f349f6255a59cdd27a517a66ef6d2f0642ab78096449a3e50dfc9c55e49ac61ed9f6ce2848142d'
 
 $appDir = "$(Get-ToolsLocation)\wavosaur"
 
-$packageArgs = @{
-  packageName    = 'wavosaur'
-  url            = 'https://www.wavosaur.com/download/files/Wavosaur.1.4.0.0-x86.zip'
-  checksum       = '6ffdc58af985afc7b4ead991afebbd61ff84cd75a7fc5d49de3631b1ba4b46e3edb8bc732b2f3a0702882006de95b8a498bb8f70b578fecdab3d0486c6eaf744'
-  checksumType   = 'sha512'
-  url64bit       = 'https://www.wavosaur.com/download/files/Wavosaur.1.4.0.0-x64.zip'
-  checksum64     = '19a9ede07ac162e9ab09d5ba5cfaab470de3ef9ec6dc89308c3765e7b3518896196f476ba57b49382a003a8815526343b4a73436aabc77b96273413ebd5b21c5'
-  checksumType64 = 'sha512'
-  unzipLocation  = $appDir
+If (Test-Path -Path $appDir) {
+  Remove-Item -Path "$appDir\*" -Include @('Wavosaur.exe', '*.dll', 'readme.txt') -Force
 }
 
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+& "$toolsDir\cleanup.ps1"
+$tmpDir = "$toolsDir\tmp"
+
+$packageArgs = @{
+  packageName    = 'wavosaur'
+  url            = "https://www.wavosaur.com/download/files/Wavosaur.$version-x86.zip"
+  checksum       = $checksumX86
+  checksumType   = 'sha512'
+  url64bit       = "https://www.wavosaur.com/download/files/Wavosaur.$version-x64.zip"
+  checksum64     = $checksumX64
+  checksumType64 = 'sha512'
+  unzipLocation  = "$tmpDir\zip"
+}
+Install-ChocolateyZipPackage @packageArgs
+
+If (Get-ProcessorBits 64) {
+  If ($env:chocolateyForceX86) {
+      $bits = 32
+  } Else {
+      $bits = 64
+  }
+} Else {
+  If ($env:chocolateyForceX64) {
+      $bits = 64
+  } Else {
+      $bits = 32
+  }
+}
+Get-ChildItem -Path "$tmpDir\zip\Wavosaur.$version-x$bits" | Move-Item -Destination $appDir -Force
+$env:ChocolateyPackageInstallLocation = $appDir
+
+$exeFile = "$appDir\Wavosaur.exe"
+Install-BinFile -Name 'wavosaur' -Path $exeFile
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shotrcutArgs = @{
   shortcutFilePath = "$menuPrograms\Wavosaur.lnk"
-  targetPath       = "$appDir\Wavosaur.exe"
+  targetPath       = $exeFile
 }
-
-Install-ChocolateyZipPackage @packageArgs
 Install-ChocolateyShortcut @shotrcutArgs
+
+Remove-Item -Path $tmpDir -Recurse -Force
