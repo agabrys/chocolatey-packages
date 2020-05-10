@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.5.0.0</version>
+    <version>1.5.0.1</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -19,21 +19,7 @@ The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosau
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- "View Widget" added (in View menu)
-- Redo:
-   * Full support for all features
-   * All in RAM option (recommended for x64), option in editor configuration dialog
-- VST Rack:
-   * Popup menu on right click on VST rack
-   * Add VST with double click on VST list
-   * Popup menu on right click on VST List: suppress &amp; add to rack
-   * Bug fix for Idle message from some old VSTs
-   * Support of keyboard keys (suppr)
-- Select from start or stop menu added (in Edit)
-- Batch processor VST processing bug fixed
-- Progress bar:
-   * Percent progression added
-- Bug fix for global display for Windows 10 resizing</releaseNotes>
+    <releaseNotes>Bug Fixes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
