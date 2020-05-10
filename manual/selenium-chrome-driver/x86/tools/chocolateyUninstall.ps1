@@ -1,5 +1,4 @@
-$toolsLocation = Get-ToolsLocation
-$seleniumDir = "$toolsLocation\selenium"
+$seleniumDir = "$(Get-ToolsLocation)\selenium"
 
 If (Test-Path -Path $seleniumDir) {
   $driverPath = "$seleniumDir\chromedriver.exe"

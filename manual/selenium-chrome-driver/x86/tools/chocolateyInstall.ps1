@@ -1,14 +1,13 @@
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$toolsLocation = Get-ToolsLocation
-$seleniumDir = "$toolsLocation\selenium"
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$seleniumDir = "$(Get-ToolsLocation)\selenium"
 $driverPath = "$seleniumDir\chromedriver.exe"
 
 $parameters = Get-PackageParameters
 
 $packageArgs = @{
   packageName   = 'selenium-chrome-driver'
-  url           = 'https://chromedriver.storage.googleapis.com/83.0.4103.14/chromedriver_win32.zip'
-  checksum      = 'd3d3505b03e7d016fe041583ba81d17ffb8612678e226447fb343602e0450ce18f821efc5656be466d60f2ee476e8c0421fa898a4f5a56666e58225fc0f73d50'
+  url           = 'https://chromedriver.storage.googleapis.com/81.0.4044.138/chromedriver_win32.zip'
+  checksum      = '815fdfe8d914be57a039396ff08b9af83a4f8a30b2d1d8f48c69137f21a4df5d083c6496574a1013345484614b70583742069d78c0af66c41a692d2225ee2916'
   checksumType  = 'sha512'
   unzipLocation = $seleniumDir
 }
