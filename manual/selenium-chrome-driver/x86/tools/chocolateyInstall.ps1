@@ -11,6 +11,10 @@ $packageArgs = @{
   checksumType  = 'sha512'
   unzipLocation = $seleniumDir
 }
+
+# Stop any running processes
+Get-Process -Name chromedriver -ErrorAction SilentlyContinue | Stop-Process
+
 Install-ChocolateyZipPackage @packageArgs
 
 Uninstall-BinFile -Name 'chromedriver'
