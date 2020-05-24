@@ -1,3 +1,5 @@
+Get-Process -Name chromedriver -ErrorAction SilentlyContinue | Stop-Process
+
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $seleniumDir = "$(Get-ToolsLocation)\selenium"
 $driverPath = "$seleniumDir\chromedriver.exe"
