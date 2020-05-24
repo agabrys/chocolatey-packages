@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.5.0.1020200614</version>
+    <version>1.6.0.0020200614</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -19,7 +19,17 @@ The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosau
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>Bug Fixes</releaseNotes>
+    <releaseNotes>- Synthesis:
+   * Linear sweep
+   * Exponential sweep
+- Host VST transport changed flag bug solved)
+- Sonogram:
+   * Black/white and white/black color added
+   * Better management of saturation level
+   * Sample display avoid recalculation
+   * Button sample display on by default
+   * Computation optimisation
+- Sonogram widget</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
