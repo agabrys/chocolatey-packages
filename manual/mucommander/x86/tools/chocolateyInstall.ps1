@@ -2,8 +2,8 @@ $packageArgs = @{
   packageName   = 'mucommander'
   installerType = 'exe'
   silentArgs    = '/S'
-  url           = 'https://github.com/mucommander/mucommander/releases/download/0.9.4-2/mucommander-0.9.4-2.exe'
-  checksum      = '66e7404f19f4b45cf7fb1c9833feb3a3c5666c1f46efbfc42913fcb301516e203511a37efe3cf483a910e27d3b8c31f177e4eb04550636f3fbe0b3ecfc114c58'
+  url           = 'https://github.com/mucommander/mucommander/releases/download/0.9.5-1/mucommander-0.9.5-1.exe'
+  checksum      = 'c48dcae33e469c77f833ef9659f815222deb75b249870634497457bf8da9117047a8af9ff5a0c96660054b67e128504150601a39b64fa30d9401b9eb9846dc81'
   checksumType  = 'sha512'
 }
 
