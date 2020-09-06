@@ -5,4 +5,4 @@ Pull requests are both appreciated and accepted.
 
 See agabrys's:
 * [Chocolatey Profile](https://chocolatey.org/profiles/agabrys)
-* [Chocolatey Packages Storage](http://packages.chocolatey.adam.gabrys.biz/)
+* [Chocolatey Packages Storage](https://agabrys.github.io/chocolatey-packages/)
