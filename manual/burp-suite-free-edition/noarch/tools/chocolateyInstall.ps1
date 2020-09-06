@@ -13,9 +13,9 @@ $env:ChocolateyPackageInstallLocation = $appDir
 
 $menuPrograms = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutArgs = @{
-  shortcutFilePath = "$menuPrograms\Burp Suite Community Edition.lnk"
-  targetPath       = "$env:JAVA_HOME\bin\javaw.exe"
+  shortcutFilePath = "${menuPrograms}\Burp Suite Community Edition.lnk"
+  targetPath       = "${env:JAVA_HOME}\bin\javaw.exe"
   arguments        = "-jar `"${appDir}\burpsuite.jar`""
-  iconLocation     = "$toolsDir\icon.ico"
+  iconLocation     = "${toolsDir}\icon.ico"
 }
 Install-ChocolateyShortcut @shortcutArgs
