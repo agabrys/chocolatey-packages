@@ -6,5 +6,4 @@ $packageArgs = @{
   silentArgs  = '/S'
   file        = "${path}\uninstall.exe"
 }
-
 Uninstall-ChocolateyPackage @packageArgs
