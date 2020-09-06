@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.6.0.0020200614</version>
+    <version>1.7.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -15,21 +15,30 @@ The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosau
     <projectUrl>http://www.wavosaur.com/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wavosaur/x86_64</packageSourceUrl>
     <tags>wavosaur audio music sound editor freeware</tags>
-    <copyright>Copyright 2006 Wavosaur. All Rights Reserved.</copyright>
+    <copyright>Copyright 2006-2020 Wavosaur. All Rights Reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- Synthesis:
-   * Linear sweep
-   * Exponential sweep
-- Host VST transport changed flag bug solved)
+    <releaseNotes>- New realtime resampling algoritm for sampling different frequency of player:
+- Offline resampling
+   * New dialog box management
+   * New downsampling options: medium and high band limited quality
+   * Memory leak bug fixed
+- Vu-meter widget bug fixed
+- Progress dialog box:
+   * Time remaining added
 - Sonogram:
-   * Black/white and white/black color added
-   * Better management of saturation level
-   * Sample display avoid recalculation
-   * Button sample display on by default
-   * Computation optimisation
-- Sonogram widget</releaseNotes>
+   * New logarithmic scale option
+   * Display optimisation
+   * Progress bar during computing
+- Horizontal marker value display behavior improved
+- NEW realtime Oscilloscope v2:
+   * Ouput waveform analysis with electronic oscillocope philosophy
+   * Color of most common oscillo
+   * Trigger run and pause
+   * Synchro on falling or rising edge
+   * Trigger value and position with mouse
+- Reminder popup bug fixed in case of undo</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
