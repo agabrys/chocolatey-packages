@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Community Edition</title>
-    <version>2021.4.1-beta</version>
+    <version>2021.3.3</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
@@ -31,7 +31,7 @@ Burp Suite Community Edition requires the official Java SE Runtime Environment 1
     <dependencies>
       <dependency id="openjdk13" />
     </dependencies>
-    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2021-4-1?requestededition=community</releaseNotes>
+    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2021-3-3?requestededition=community</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
