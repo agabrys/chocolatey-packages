@@ -4,8 +4,8 @@ $appDir = "${toolsDir}\app"
 $packageArgs = @{
   packageName  = 'burp-suite-free-edition'
   fileFullPath = "${appDir}\burpsuite.jar"
-  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=2021.10.2&type=jar'
-  checksum     = '02d33f817a1238ea23ddd3e82ac828164eb5b4e59efc553d8aadc407081b2c491da30251bb2afa73704a882b2d4698d2526c0ac7438c48f476cb1dca5fbbaf91'
+  url          = 'https://portswigger.net/Burp/Releases/Download?productId=100&version=2021.10.3&type=jar'
+  checksum     = '6dbf0a0e052a068e36ee9a012faa3028e8149b3aefb49c9d96725feae4f0a93a07eaa3a40187fb5348f67600e0ba73fed06a1d6fa18ced61290c1c1962fc9dde'
   checksumType = 'sha512'
 }
 Get-ChocolateyWebFile @packageArgs
