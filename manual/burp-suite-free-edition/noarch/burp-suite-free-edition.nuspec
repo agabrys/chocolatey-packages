@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Community Edition</title>
-    <version>2021.12.1</version>
+    <version>2022.1-beta</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
@@ -18,9 +18,7 @@ Burp Suite Community Edition contains the following key components:
 - A Sequencer tool, for testing the randomness of session tokens.
 - Extensibility, allowing you to easily write your own plugins, to perform complex and highly customized tasks within Burp.
 
-Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.
-
-Burp Suite Community Edition requires the official Java SE Runtime Environment 13 or later.</description>
+Burp is easy to use and intuitive, allowing new users to begin working right away. Burp is also highly configurable, and contains numerous powerful features to assist the most experienced testers with their work.</description>
     <projectUrl>https://portswigger.net/burp/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/burp-suite-free-edition/noarch</packageSourceUrl>
     <tags>burp-suite proxy security testing web-applications freeware</tags>
@@ -29,9 +27,9 @@ Burp Suite Community Edition requires the official Java SE Runtime Environment 1
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition/icon.png</iconUrl>
     <dependencies>
-      <dependency id="openjdk13" />
+      <dependency id="openjdk17" version="17.0.0" />
     </dependencies>
-    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2021-12-1?requestededition=community</releaseNotes>
+    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2022-1?requestededition=community</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
