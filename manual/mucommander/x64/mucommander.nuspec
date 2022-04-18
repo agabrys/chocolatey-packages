@@ -3,13 +3,13 @@
   <metadata>
     <id>mucommander</id>
     <title>muCommander</title>
-    <version>0.9.7</version>
+    <version>1.0.0</version>
     <authors>Maxence Bernard</authors>
     <owners>agabrys</owners>
     <summary>muCommander is a lightweight, cross-platform file manager with a dual-pane interface.</summary>
     <description>muCommander is a lightweight, cross-platform file manager with a dual-pane interface. It runs on any operating system with Java support (Mac OS X, Windows, Linux, *BSD, Solaris...).</description>
     <projectUrl>http://www.mucommander.com/</projectUrl>
-    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/mucommander/x86</packageSourceUrl>
+    <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/mucommander/x64</packageSourceUrl>
     <docsUrl>https://github.com/mucommander/mucommander/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/mucommander/mucommander/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/mucommander/mucommander</projectSourceUrl>
@@ -18,11 +18,7 @@
     <licenseUrl>https://raw.githubusercontent.com/mucommander/mucommander/master/package/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/mucommander/icon.png</iconUrl>
-    <releaseNotes>https://github.com/mucommander/mucommander/releases/tag/0.9.7</releaseNotes>
-    <dependencies>
-      <dependency id="chocolatey-core.extension" version="1.3.5.1" />
-      <dependency id="openjdk11" version="11.0.2.01" />
-    </dependencies>
+    <releaseNotes>https://github.com/mucommander/mucommander/releases/tag/1.0.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
