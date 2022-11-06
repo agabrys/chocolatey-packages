@@ -3,7 +3,7 @@
   <metadata>
     <id>burp-suite-free-edition</id>
     <title>Burp Suite Community Edition</title>
-    <version>2022.6-beta</version>
+    <version>2022.5.2</version>
     <authors>PortSwigger Ltd.</authors>
     <owners>agabrys</owners>
     <summary>Burp Suite is an integrated platform for performing security testing of web applications.</summary>
@@ -26,7 +26,7 @@ Burp is easy to use and intuitive, allowing new users to begin working right awa
     <licenseUrl>https://portswigger.net/burp/eula/community</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/burp-suite-free-edition/icon.png</iconUrl>
-    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2022-6?requestededition=community</releaseNotes>
+    <releaseNotes>https://portswigger.net/burp/releases/professional-community-2022-5-2?requestededition=community</releaseNotes>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.4.0" />
     </dependencies>
