@@ -2,8 +2,8 @@ $packageArgs = @{
   packageName    = 'burp-suite-free-edition'
   fileType       = 'exe'
   silentArgs     = '-q'
-  url64bit       = 'https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.8.4&type=WindowsX64'
-  checksum64     = 'd09dac7bfd2ae42c1ffbfb883d5cced53cd8cd40ac18ffae42312c90e13da2fca6af8a5eec67efa58b1bb628d4eb1e18c7d71aeed08a90cabb9e2a082a6e9bf3'
+  url64bit       = 'https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.9&type=WindowsX64'
+  checksum64     = '4d2a8ecb83c351a485730cc8e0959843c7d9b68daafc1cb9c3b7583058bc4a76581c493564aff7159219b20b9788d5e6adf7bbfc615cb29396ebd53a8da39343'
   checksumType64 = 'sha512'
 }
 Install-ChocolateyPackage @packageArgs
