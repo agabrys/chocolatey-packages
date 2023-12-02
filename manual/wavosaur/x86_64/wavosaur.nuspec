@@ -3,7 +3,7 @@
   <metadata>
     <id>wavosaur</id>
     <title>Wavosaur</title>
-    <version>1.7.0.0</version>
+    <version>1.8.0.0</version>
     <authors>Wavosaur</authors>
     <owners>agabrys</owners>
     <summary>Wavosaur is a cool free sound editor software for editing, processing and recording sounds, wav and mp3 files.</summary>
@@ -15,30 +15,71 @@ The application executable is installed in the &lt;Get-ToolsLocation&gt;/wavosau
     <projectUrl>http://www.wavosaur.com/</projectUrl>
     <packageSourceUrl>https://github.com/agabrys/chocolatey-packages/tree/master/manual/wavosaur/x86_64</packageSourceUrl>
     <tags>wavosaur audio music sound editor freeware</tags>
-    <copyright>Copyright 2006-2020 Wavosaur. All Rights Reserved.</copyright>
+    <copyright>Copyright 2006-2023 Wavosaur. All Rights Reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/agabrys/chocolatey-packages/master/manual/wavosaur/icon.png</iconUrl>
-    <releaseNotes>- New realtime resampling algoritm for sampling different frequency of player:
-- Offline resampling
-   * New dialog box management
-   * New downsampling options: medium and high band limited quality
-   * Memory leak bug fixed
-- Vu-meter widget bug fixed
-- Progress dialog box:
-   * Time remaining added
-- Sonogram:
-   * New logarithmic scale option
-   * Display optimisation
-   * Progress bar during computing
-- Horizontal marker value display behavior improved
-- NEW realtime Oscilloscope v2:
-   * Ouput waveform analysis with electronic oscillocope philosophy
-   * Color of most common oscillo
-   * Trigger run and pause
-   * Synchro on falling or rising edge
-   * Trigger value and position with mouse
-- Reminder popup bug fixed in case of undo</releaseNotes>
+    <releaseNotes>- New VST dialog box for plugin GUI:
+   * Resizing bug fixed
+   * Plugin name and dll name display
+   * Status bar, menu and toolbar for plugin control
+   * Mute button fonction to disconnect plugin
+   * Load &amp; save banks and presets
+   * Resizable VST GUI full support
+- New "VST/Midi bridge":
+   * VST parameter are now management via midi CC (see manual for more detailled infos)
+   * Update of midi configuration dialog box
+- New "VST Tweaker":
+   * Display of all VST parameters
+   * Support of VST without GUI
+   * Parameter value, label and name displayed
+   * Usable with mouse wheel
+   * Configurable view for low/high res screens (saved in ini file)
+- New "VST Scanner":
+   * New scanner with independant processing of plugin to avoid crash with unstable plugins
+   * Use of WavosaurVSTScan.exe mandatory (same directory)
+- VST Rack:
+   * Mute added in popup menu (mute the selected plugin)
+   * VST plugin properties dialog box
+   * No window close on 'return' key pressed
+   * Renaming of plugin in rack and list
+   * Host support for open/save dialog
+   * Support of parameter automation
+   * Option to keep VST rack (saved in wavosaur.sor) to reload it at startup
+- MP3 decoding bug with corrupted files fixed
+- Playbar resynchro during selection change for loop
+- Vu meter, Widget and VST processing bug fixed (for file closed)
+- New Wavosaur debug features:
+   * New dialog box in help menu
+   * Code from Wavosaur support to activate debug functions
+- Optimisation audit &amp; task force for timing and speed:
+   * Player, widget global graphic interface
+   * Full display for zoom
+- New recent file dialog box:
+   * New dockable (left/right) and reziable dialog for recent file
+   * All recent files are saved in wavosaurrecentfiles.ini file
+   * Name and path views
+- New file browser dockable dialog box:
+   * Simple and efficient file tree with audio
+   * Double click to load file
+   * Path saved wavosaurbrowser.ini file
+   * File filters fully editable in ini file
+- Editor frame rate is now available un cfg file for advanced users
+- Sampling rate and audio device are now on the main frame pane
+- Double click on dB bar (channel solo) change without select all
+- Audio driver:
+   * Relaunched after audio configurations
+- ASIO:
+   * Bug corrected for 24bits drivers (LSB)
+   * Compatibility improvement for ASIO4all change of buffer size
+   * Correction for multichannel drivers
+   * Sample rate frequency detection
+- Midi:
+   * Midi panning correction
+   * Midi commands are now in fully editable "wavosaurmidicommand.ini"
+   * Evolution UC33 midi controller compatibility improvement
+- New toolbar size, buttons added for oscillo &amp; sonogram
+- Main frame: filter to aifc, aff and snd added in open dialog box</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
