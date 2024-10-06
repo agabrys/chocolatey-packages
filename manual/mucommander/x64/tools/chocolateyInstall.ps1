@@ -2,8 +2,8 @@ $packageArgs = @{
   packageName    = 'mucommander'
   fileType       = 'msi'
   silentArgs     = '/quiet'
-  url64          = 'https://github.com/mucommander/mucommander/releases/download/1.5.0-1/mucommander-1.5.0.msi'
-  checksum64     = '69f7e2d8c6e8668b0972cd29da3d88100c768c3f92ca25a27e838e88acfb77dbd64bf38977ac7549e977adf36bf85478a58ef7220267735eadffacd659e94c9c'
+  url64          = 'https://github.com/mucommander/mucommander/releases/download/1.5.1-1/mucommander-1.5.1.msi'
+  checksum64     = '2c54d99be0c7857f59fe9f340f15b51fe30330695273e1d7b6321125aac6e9683129355693d78c4f8e5f516ac9046a8d05d778dbd1ad6e33a70f70e88ddb9d15'
   checksumType64 = 'sha512'
 }
 Install-ChocolateyPackage @packageArgs
